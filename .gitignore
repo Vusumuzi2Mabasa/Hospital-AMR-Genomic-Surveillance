@@ -1,0 +1,16 @@
+work/
+.nextflow*
+nextflow-work/
+renv/library/
+.Rhistory
+.RData
+data/reads/
+report/*_files/
+report/*.html
+report/~$*
+*.bam
+*.bai
+*.fastq.gz
+__pycache__/
+*.pyc
+*.ckp.gz

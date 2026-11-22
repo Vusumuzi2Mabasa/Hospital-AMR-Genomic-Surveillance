@@ -1,0 +1,5 @@
+sample,expected,detected,correct
+WGS01,blaKPC-2,blaKPC-2,True
+WGS04,None,None,True
+WGS05,blaNDM-1,blaNDM-1,True
+WGS08,None,None,True

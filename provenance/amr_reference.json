@@ -1,0 +1,21 @@
+{
+  "database": "NCBI AMRFinderPlus Reference Gene Database",
+  "release": "2026-08-07.1",
+  "source": "https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/2026-08-07.1/AMR_CDS.fa",
+  "source_sha256": "bcc57417c5a170fb4a664de6898455990fcc296dbfe214b6874d761dad63962c",
+  "records": [
+    {
+      "gene": "blaKPC-2",
+      "source_header": "WP_004199234.1|NG_049253.1|1|1|blaKPC-2|blaKPC|carbapenem-hydrolyzing_class_A_beta-lactamase_KPC-2 NG_049253.1:6-887",
+      "length": 882,
+      "sha256": "183f34b1990788361f64955df7d0fda7ffff81a052d66346cd18360896db4014"
+    },
+    {
+      "gene": "blaNDM-1",
+      "source_header": "WP_004201164.1|NG_049326.1|1|1|blaNDM-1|blaNDM|subclass_B1_metallo-beta-lactamase_NDM-1 NG_049326.1:101-913",
+      "length": 813,
+      "sha256": "cca12e2ae0b4c481407720b13add77dd23e43045b4595e254c47ab2d1ea0fbb6"
+    }
+  ],
+  "purpose": "Two-target BLAST positive controls, not a full AMRFinderPlus analysis"
+}

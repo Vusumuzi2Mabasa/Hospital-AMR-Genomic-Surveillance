@@ -1,0 +1,15 @@
+Local executed tools; isolated bwa/bcftools/SPAdes prefix, existing other tools
+
+Program: bwa (alignment via Burrows-Wheeler transformation)
+Version: 0.7.19-r1273
+Contact: Heng Li <hli@ds.dfci.harvard.edu>
+bcftools 1.25
+Using htslib 1.25
+SPAdes genome assembler v4.3.0
+samtools 1.21
+Using htslib 1.24
+blastn: 2.17.0+
+ Package: blast 2.17.0, build Aug 22 2026 11:52:50
+fastp 0.23.4
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb 12 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,

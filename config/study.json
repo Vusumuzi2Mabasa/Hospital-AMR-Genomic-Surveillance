@@ -1,0 +1,11 @@
+{
+  "seed": 20261122,
+  "replicates": 100,
+  "isolates": 150,
+  "core_sites": 6000,
+  "thresholds": [2, 5, 10],
+  "primary_threshold": 5,
+  "minimum_callable_fraction": 0.90,
+  "maximum_days": 30,
+  "scenarios": ["baseline", "poor_quality", "incomplete_sampling", "missing_metadata"]
+}

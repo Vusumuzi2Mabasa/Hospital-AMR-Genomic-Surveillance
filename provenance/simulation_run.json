@@ -1,0 +1,21 @@
+{
+  "seed": 20261122,
+  "replicates": 100,
+  "scenarios": [
+    "baseline",
+    "poor_quality",
+    "incomplete_sampling",
+    "missing_metadata"
+  ],
+  "isolates_per_population": 150,
+  "distinct_populations": 100,
+  "paired_scenarios": true,
+  "total_scenario_evaluations": 400,
+  "data_type": "fully synthetic",
+  "local_runtime": "Windows R on Toshiba; executed Linux Nextflow tool versions in results/wgs/local_tool_versions.txt",
+  "source_hashes": {
+    "analysis.R": "ad63df43a596087c052abaf2f8b8bbae1ae55b0146f51cce564b92de5cf0735d",
+    "common.R": "28a171526dcdb7aeec71aa826a0fa382de0734ff0e01652dcb2256efb2ca3840",
+    "simulation.R": "3c48bb1aea6335132d014898ebe02e829a27f81e91d9e0968b20dfe254fa1a80"
+  }
+}

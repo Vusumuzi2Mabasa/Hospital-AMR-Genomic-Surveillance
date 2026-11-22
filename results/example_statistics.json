@@ -1,0 +1,7 @@
+{
+  "hospital_resistance_fisher_p": 0.0022,
+  "mortality_model_converged": true,
+  "deaths": 21,
+  "n": 150,
+  "interpretation": "Exploratory associations in one synthetic cohort; no causal or clinical claim"
+}

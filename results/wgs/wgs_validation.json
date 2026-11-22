@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "samples": 12,
+  "high_depth": 10,
+  "low_depth_negative_controls": 2,
+  "assembly_controls": 4,
+  "max_high_depth_wrong_bases": 0,
+  "scope": "Random 30kb core segments; four assemblies screened against two AMR references; not clinical genomes or a complete resistome"
+}

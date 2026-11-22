@@ -1,0 +1,74 @@
+{
+  "WGS01": {
+    "cluster": "Cluster A",
+    "gene": "blaKPC-2",
+    "depth": 28,
+    "assembly": true
+  },
+  "WGS02": {
+    "cluster": "Cluster A",
+    "gene": "blaKPC-2",
+    "depth": 28,
+    "assembly": false
+  },
+  "WGS03": {
+    "cluster": "Cluster A",
+    "gene": "blaKPC-2",
+    "depth": 28,
+    "assembly": false
+  },
+  "WGS04": {
+    "cluster": "Cluster A",
+    "gene": "None",
+    "depth": 28,
+    "assembly": true
+  },
+  "WGS05": {
+    "cluster": "Cluster B",
+    "gene": "blaNDM-1",
+    "depth": 28,
+    "assembly": true
+  },
+  "WGS06": {
+    "cluster": "Cluster B",
+    "gene": "blaNDM-1",
+    "depth": 28,
+    "assembly": false
+  },
+  "WGS07": {
+    "cluster": "Cluster B",
+    "gene": "blaNDM-1",
+    "depth": 28,
+    "assembly": false
+  },
+  "WGS08": {
+    "cluster": "Cluster B",
+    "gene": "None",
+    "depth": 28,
+    "assembly": true
+  },
+  "WGS09": {
+    "cluster": "Close unlinked background",
+    "gene": "blaKPC-2",
+    "depth": 28,
+    "assembly": false
+  },
+  "WGS10": {
+    "cluster": "Close unlinked background",
+    "gene": "blaNDM-1",
+    "depth": 28,
+    "assembly": false
+  },
+  "WGS11": {
+    "cluster": "Distant background",
+    "gene": "None",
+    "depth": 2,
+    "assembly": false
+  },
+  "WGS12": {
+    "cluster": "Distant background",
+    "gene": "None",
+    "depth": 2,
+    "assembly": false
+  }
+}

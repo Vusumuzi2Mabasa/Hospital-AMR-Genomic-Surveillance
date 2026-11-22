@@ -1,0 +1,7 @@
+
+      N E X T F L O W
+      version 25.10.2 build 10555
+      created 28-11-2025 19:24 UTC (21:24 SAST)
+      cite doi:10.1038/nbt.3820
+      http://nextflow.io
+
