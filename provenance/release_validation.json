@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "nextflow_completed_tasks": 42,
+  "figures": 8,
+  "word_pages": 10,
+  "all_pages_visually_reviewed": true,
+  "word_sha256": "cd23c20ccc69984fd91b63faaa7495c7a55635eea0a63ae484f8c6227eabe984",
+  "credential_pattern_scan": "passed",
+  "clinical_data": "none; fully synthetic fixtures and metadata",
+  "scope": "Local release audit; GitHub Actions status is separate"
+}
