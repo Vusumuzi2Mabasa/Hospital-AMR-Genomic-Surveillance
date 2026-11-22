@@ -77,4 +77,5 @@ execution,wgsextra,
 join_body<-function(x)gsub('(\\|)\n\n(\\|)','\\1\n\\2',paste(x,collapse='\n\n'))
 writeLines(join_body(body),'README.md',useBytes=TRUE)
 report<-body[-c(1,2)];report<-gsub('](figures/','](../figures/',report,fixed=TRUE)
+for(folder in c('report','results','provenance'))report<-gsub(paste0('](',folder,'/'),paste0('](https://github.com/Vusumuzi2Mabasa/Hospital-AMR-Genomic-Surveillance/blob/main/',folder,'/'),report,fixed=TRUE)
 writeLines(c('---','title: "Hospital genomic surveillance under incomplete sampling and uncertain sequence quality"','author: "Vusumuzi Mabasa"','subtitle: "An independent fully synthetic research demonstration"','date: "2026-11-22"','format:','  docx:','    reference-doc: reference.docx','---','',join_body(report)),'report/Hospital_AMR_Report.qmd',useBytes=TRUE)

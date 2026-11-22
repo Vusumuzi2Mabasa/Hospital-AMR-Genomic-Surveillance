@@ -146,7 +146,7 @@ Rscript --vanilla scripts/audit.R
 
 Activate the Linux environment in environment.yml before running Nextflow. The pinned conda specification is supplied for recreation; recorded local tool versions document the actual execution environment. Transitive dependency resolution may change. The Windows report renderer locates the installed RStudio Quarto executable when it is not on PATH.
 
-[Word report](report/Hospital_AMR_Report.docx) | [Quarto source](report/Hospital_AMR_Report.qmd) | [Performance tables](results/performance_summary.csv) | [Clinical associations](results/mortality_associations.csv) | [Full tree](results/full_synthetic_tree.nwk) | [R validation](provenance/R_validation.json)
+[Word report](https://github.com/Vusumuzi2Mabasa/Hospital-AMR-Genomic-Surveillance/blob/main/report/Hospital_AMR_Report.docx) | [Quarto source](https://github.com/Vusumuzi2Mabasa/Hospital-AMR-Genomic-Surveillance/blob/main/report/Hospital_AMR_Report.qmd) | [Performance tables](https://github.com/Vusumuzi2Mabasa/Hospital-AMR-Genomic-Surveillance/blob/main/results/performance_summary.csv) | [Clinical associations](https://github.com/Vusumuzi2Mabasa/Hospital-AMR-Genomic-Surveillance/blob/main/results/mortality_associations.csv) | [Full tree](https://github.com/Vusumuzi2Mabasa/Hospital-AMR-Genomic-Surveillance/blob/main/results/full_synthetic_tree.nwk) | [R validation](https://github.com/Vusumuzi2Mabasa/Hospital-AMR-Genomic-Surveillance/blob/main/provenance/R_validation.json)
 
 ## References
 
