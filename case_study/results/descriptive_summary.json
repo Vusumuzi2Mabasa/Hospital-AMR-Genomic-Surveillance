@@ -1,0 +1,22 @@
+{
+  "data_type": "public measured bacterial genome assemblies",
+  "n": 12,
+  "QC_pass": 12,
+  "ST258": 12,
+  "KPC_positive": 12,
+  "median_contigs": 162,
+  "N50_kb_median": 152.687,
+  "N50_kb_range": [120.8, 5395.263],
+  "median_callable_percent": 98.4074,
+  "callable_percent_range": [98.2492, 99.7176],
+  "common_core_bases": 5211693,
+  "common_core_percent": 96.6192,
+  "variable_sites": 42,
+  "pairwise_snp_median": 16.5,
+  "pairwise_snp_IQR": [7, 20],
+  "pairwise_snp_range": [0, 25],
+  "KPC_alleles": "blaKPC-3",
+  "AMR_gene_union": 15,
+  "AMR_gene_shared": 15,
+  "scope": "Descriptive within-outbreak statistics; pairs and isolates are not independent population observations"
+}

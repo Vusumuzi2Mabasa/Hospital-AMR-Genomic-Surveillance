@@ -1,0 +1,1946 @@
+[
+  {
+    "accession": "GCA_000281535.2",
+    "current_accession": "GCA_000281535.2",
+    "paired_accession": "GCF_000281535.2",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 1087440,
+      "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH1",
+      "infraspecific_names": {
+        "strain": "KPNIH1"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Complete Genome",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCF_000281535.2",
+        "status": "current",
+        "annotation_name": "GCF_000281535.2-RS_2026_09_13"
+      },
+      "assembly_name": "ASM28153v2",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA73191",
+              "title": "Klebsiella pneumoniae subsp. pneumoniae KPNIH1 Genome sequencing",
+              "parent_accessions": [
+                "PRJNA188534",
+                "PRJNA251756"
+              ]
+            },
+            {
+              "accession": "PRJNA188534",
+              "title": "National Institutes of Health Clinical Center Klebsiella Outbreak 2011 Study"
+            },
+            {
+              "accession": "PRJNA251756",
+              "title": "National Institutes of Health Clinical Center Carbapenem Resistant Enterobacteriaceae"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA73191",
+      "release_date": "2014-07-02",
+      "submitter": "NIH Intramural Sequencing Center",
+      "sequencing_tech": "Pacific Biosciences RS II",
+      "assembly_method": "HGAP v. 2",
+      "biosample": {
+        "accession": "SAMN01057611",
+        "last_updated": "2016-07-11T10:12:47.523",
+        "publication_date": "2012-07-27T07:44:11.703",
+        "submission_date": "2012-06-25T10:05:03.660",
+        "sample_ids": [
+          {
+            "db": "NISC",
+            "label": "Sample name",
+            "value": "KPNIH1_D1448792"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS346943"
+          }
+        ],
+        "description": {
+          "title": "Sample from Klebsiella pneumoniae subsp. pneumoniae KPNIH1",
+          "organism": {
+            "tax_id": 1087440,
+            "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH1"
+          },
+          "comment": "Klebsiella pneumoniae subsp. pneumoniae KPNIH1 genomic sample"
+        },
+        "owner": {
+          "name": "NIH Intramural Sequencing Center"
+        },
+        "models": [
+          "Generic"
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "KPNIH1"
+          },
+          {
+            "name": "isolation_source",
+            "value": "groin"
+          },
+          {
+            "name": "host",
+            "value": "Homo sapiens"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "USA"
+          },
+          {
+            "name": "collection_date",
+            "value": "2011"
+          },
+          {
+            "name": "sub_species",
+            "value": "pneumoniae"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-03-29T07:33:46"
+        },
+        "collection_date": "2011",
+        "geo_loc_name": "USA",
+        "host": "Homo sapiens",
+        "isolation_source": "groin",
+        "strain": "KPNIH1",
+        "sub_species": "pneumoniae"
+      },
+      "comments": "Annotation was added by the NCBI Prokaryotic Genome Annotation Pipeline (released 2013). Information about the Pipeline can be found here: http://www.ncbi.nlm.nih.gov/genome/annotation_prok/\n\nBacteria and source DNA available from: Adrian Zelazny, Department of Laboratory Medicine, National Institutes of Health Clinical Center."
+    },
+    "assembly_stats": {
+      "total_number_of_chromosomes": 4,
+      "total_sequence_length": "5766615",
+      "total_ungapped_length": "5766615",
+      "number_of_contigs": 4,
+      "contig_n50": 5394056,
+      "contig_l50": 1,
+      "number_of_scaffolds": 4,
+      "scaffold_n50": 5394056,
+      "scaffold_l50": 1,
+      "number_of_component_sequences": 4,
+      "atgc_count": "5766615",
+      "gc_count": "3296601",
+      "gc_percent": 57,
+      "genome_coverage": "96"
+    },
+    "annotation_info": {
+      "name": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)",
+      "provider": "NCBI",
+      "release_date": "2014-06-02",
+      "stats": {
+        "gene_counts": {
+          "total": 5530,
+          "protein_coding": 5397,
+          "non_coding": 119,
+          "pseudogene": 14
+        }
+      },
+      "method": "Best-placed reference protein set; GeneMarkS+",
+      "pipeline": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)",
+      "software_version": "2.5 (rev. 436558)"
+    },
+    "checkm_info": {
+      "checkm_marker_set": "Klebsiella pneumoniae",
+      "checkm_species_tax_id": 573,
+      "checkm_marker_set_rank": "species",
+      "checkm_version": "v1.2.5",
+      "completeness": 99.24,
+      "contamination": 0.19,
+      "completeness_percentile": 97.2213
+    },
+    "average_nucleotide_identity": {
+      "taxonomy_check_status": "OK",
+      "match_status": "derived_species_match",
+      "submitted_organism": "Klebsiella pneumoniae subsp. pneumoniae KPNIH1",
+      "submitted_species": "Klebsiella pneumoniae",
+      "category": "category_na",
+      "submitted_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae subsp. pneumoniae",
+        "category": "type",
+        "ani": 99.99,
+        "assembly_coverage": 97.7,
+        "type_assembly_coverage": 98.39
+      },
+      "best_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae",
+        "category": "type",
+        "ani": 99.99,
+        "assembly_coverage": 97.7,
+        "type_assembly_coverage": 98.39
+      },
+      "comment": "na"
+    }
+  },
+  {
+    "accession": "GCA_000281255.1",
+    "current_accession": "GCA_000281255.1",
+    "paired_accession": "GCF_000281255.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 1087441,
+      "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH2",
+      "infraspecific_names": {
+        "strain": "KPNIH2"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCF_000281255.1",
+        "status": "current",
+        "annotation_name": "GCF_000281255.1-RS_2026_09_13"
+      },
+      "assembly_name": "KPNIH2_1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA73195",
+              "title": "Klebsiella pneumoniae subsp. pneumoniae KPNIH2 Genome sequencing and assembly",
+              "parent_accessions": [
+                "PRJNA188534"
+              ]
+            },
+            {
+              "accession": "PRJNA188534",
+              "title": "National Institutes of Health Clinical Center Klebsiella Outbreak 2011 Study"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA73195",
+      "release_date": "2012-07-24",
+      "submitter": "NIH Intramural Sequencing Center",
+      "sequencing_tech": "454 GS FLX",
+      "assembly_method": "Newbler v. 2.5.3",
+      "biosample": {
+        "accession": "SAMN01057609",
+        "last_updated": "2014-11-08T02:20:46.870",
+        "publication_date": "2012-07-27T07:44:11.620",
+        "submission_date": "2012-06-25T10:05:03.577",
+        "sample_ids": [
+          {
+            "db": "NISC",
+            "label": "Sample name",
+            "value": "KPNIH2_D1448793"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS346941"
+          }
+        ],
+        "description": {
+          "title": "Sample from Klebsiella pneumoniae subsp. pneumoniae KPNIH2",
+          "organism": {
+            "tax_id": 1087441,
+            "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH2"
+          },
+          "comment": "Klebsiella pneumoniae subsp. pneumoniae KPNIH2 genomic sample"
+        },
+        "owner": {
+          "name": "NIH Intramural Sequencing Center"
+        },
+        "models": [
+          "Generic"
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "KPNIH2"
+          },
+          {
+            "name": "BioSampleModel",
+            "value": "Generic"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-11-08T00:48:54"
+        },
+        "strain": "KPNIH2"
+      },
+      "comments": "Annotation was added by the NCBI Prokaryotic Genomes Automatic Annotation Pipeline Group. Information about the Pipeline can be found here: http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be aware that the annotation is done automatically with little or no manual curation.\n\nBacteria and source DNA available from: Adrian Zelazny, Department of Laboratory Medicine, National Institutes of Health Clinical Center."
+    },
+    "assembly_stats": {
+      "total_sequence_length": "5724800",
+      "total_ungapped_length": "5724800",
+      "number_of_contigs": 147,
+      "contig_n50": 154879,
+      "contig_l50": 13,
+      "number_of_scaffolds": 147,
+      "scaffold_n50": 154879,
+      "scaffold_l50": 13,
+      "number_of_component_sequences": 147,
+      "atgc_count": "5724793",
+      "gc_count": "3274365",
+      "gc_percent": 57,
+      "genome_coverage": "28"
+    },
+    "annotation_info": {
+      "name": "Annotation submitted by NIH Intramural Sequencing Center",
+      "provider": "NIH Intramural Sequencing Center",
+      "release_date": "2012-07-24",
+      "stats": {
+        "gene_counts": {
+          "total": 5752,
+          "protein_coding": 5630,
+          "non_coding": 122
+        }
+      }
+    },
+    "wgs_info": {
+      "wgs_project_accession": "AJZV01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/AJZV00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/AJZV01"
+    },
+    "checkm_info": {
+      "checkm_marker_set": "Klebsiella pneumoniae",
+      "checkm_species_tax_id": 573,
+      "checkm_marker_set_rank": "species",
+      "checkm_version": "v1.2.5",
+      "completeness": 99.24,
+      "contamination": 0.19,
+      "completeness_percentile": 97.2213
+    },
+    "average_nucleotide_identity": {
+      "taxonomy_check_status": "OK",
+      "match_status": "derived_species_match",
+      "submitted_organism": "Klebsiella pneumoniae subsp. pneumoniae KPNIH2",
+      "submitted_species": "Klebsiella pneumoniae",
+      "category": "category_na",
+      "submitted_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae subsp. pneumoniae",
+        "category": "type",
+        "ani": 99.99,
+        "assembly_coverage": 98.4,
+        "type_assembly_coverage": 98.38
+      },
+      "best_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae",
+        "category": "type",
+        "ani": 99.99,
+        "assembly_coverage": 98.4,
+        "type_assembly_coverage": 98.38
+      },
+      "comment": "na"
+    }
+  },
+  {
+    "accession": "GCA_000281395.1",
+    "current_accession": "GCA_000281395.1",
+    "paired_accession": "GCF_000281395.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 1087443,
+      "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH4",
+      "infraspecific_names": {
+        "strain": "KPNIH4"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCF_000281395.1",
+        "status": "current",
+        "annotation_name": "GCF_000281395.1-RS_2026_03_13"
+      },
+      "assembly_name": "KPNIH4_1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA73199",
+              "title": "Klebsiella pneumoniae subsp. pneumoniae KPNIH4 Genome sequencing and assembly",
+              "parent_accessions": [
+                "PRJNA188534"
+              ]
+            },
+            {
+              "accession": "PRJNA188534",
+              "title": "National Institutes of Health Clinical Center Klebsiella Outbreak 2011 Study"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA73199",
+      "release_date": "2012-07-24",
+      "submitter": "NIH Intramural Sequencing Center",
+      "sequencing_tech": "454 GS FLX",
+      "assembly_method": "Newbler v. 2.5.3",
+      "biosample": {
+        "accession": "SAMN01057606",
+        "last_updated": "2014-11-08T02:20:46.657",
+        "publication_date": "2012-07-27T07:44:11.417",
+        "submission_date": "2012-06-25T10:05:03.250",
+        "sample_ids": [
+          {
+            "db": "NISC",
+            "label": "Sample name",
+            "value": "KPNIH4_D1448795"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS346938"
+          }
+        ],
+        "description": {
+          "title": "Sample from Klebsiella pneumoniae subsp. pneumoniae KPNIH4",
+          "organism": {
+            "tax_id": 1087443,
+            "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH4"
+          },
+          "comment": "Klebsiella pneumoniae subsp. pneumoniae KPNIH4 genomic sample"
+        },
+        "owner": {
+          "name": "NIH Intramural Sequencing Center"
+        },
+        "models": [
+          "Generic"
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "KPNIH4"
+          },
+          {
+            "name": "BioSampleModel",
+            "value": "Generic"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-11-08T00:48:54"
+        },
+        "strain": "KPNIH4"
+      },
+      "comments": "Annotation was added by the NCBI Prokaryotic Genomes Automatic Annotation Pipeline Group. Information about the Pipeline can be found here: http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be aware that the annotation is done automatically with little or no manual curation.\n\nBacteria and source DNA available from: Adrian Zelazny, Department of Laboratory Medicine, National Institutes of Health Clinical Center."
+    },
+    "assembly_stats": {
+      "total_sequence_length": "5718058",
+      "total_ungapped_length": "5718058",
+      "number_of_contigs": 173,
+      "contig_n50": 120800,
+      "contig_l50": 15,
+      "number_of_scaffolds": 173,
+      "scaffold_n50": 120800,
+      "scaffold_l50": 15,
+      "number_of_component_sequences": 173,
+      "atgc_count": "5718048",
+      "gc_count": "3270788",
+      "gc_percent": 57,
+      "genome_coverage": "23"
+    },
+    "annotation_info": {
+      "name": "Annotation submitted by NIH Intramural Sequencing Center",
+      "provider": "NIH Intramural Sequencing Center",
+      "release_date": "2012-07-24",
+      "stats": {
+        "gene_counts": {
+          "total": 5729,
+          "protein_coding": 5621,
+          "non_coding": 108
+        }
+      }
+    },
+    "wgs_info": {
+      "wgs_project_accession": "AJZW01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/AJZW00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/AJZW01"
+    },
+    "checkm_info": {
+      "checkm_marker_set": "Klebsiella pneumoniae",
+      "checkm_species_tax_id": 573,
+      "checkm_marker_set_rank": "species",
+      "checkm_version": "v1.2.4",
+      "completeness": 98.8,
+      "contamination": 0.19,
+      "completeness_percentile": 59.8161
+    },
+    "average_nucleotide_identity": {
+      "taxonomy_check_status": "OK",
+      "match_status": "derived_species_match",
+      "submitted_organism": "Klebsiella pneumoniae subsp. pneumoniae KPNIH4",
+      "submitted_species": "Klebsiella pneumoniae",
+      "category": "category_na",
+      "submitted_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae subsp. pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.42,
+        "type_assembly_coverage": 98.29
+      },
+      "best_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.42,
+        "type_assembly_coverage": 98.29
+      },
+      "comment": "na"
+    }
+  },
+  {
+    "accession": "GCA_000281275.1",
+    "current_accession": "GCA_000281275.1",
+    "paired_accession": "GCF_000281275.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 1087444,
+      "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH5",
+      "infraspecific_names": {
+        "strain": "KPNIH5"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCF_000281275.1",
+        "status": "current",
+        "annotation_name": "GCF_000281275.1-RS_2026_09_13"
+      },
+      "assembly_name": "KPNIH5_1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA73201",
+              "title": "Klebsiella pneumoniae subsp. pneumoniae KPNIH5 Genome sequencing and assembly",
+              "parent_accessions": [
+                "PRJNA188534"
+              ]
+            },
+            {
+              "accession": "PRJNA188534",
+              "title": "National Institutes of Health Clinical Center Klebsiella Outbreak 2011 Study"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA73201",
+      "release_date": "2012-07-24",
+      "submitter": "NIH Intramural Sequencing Center",
+      "sequencing_tech": "454 GS FLX",
+      "assembly_method": "Newbler v. 2.5.3",
+      "biosample": {
+        "accession": "SAMN01057607",
+        "last_updated": "2014-11-08T02:20:46.747",
+        "publication_date": "2012-07-27T07:44:11.560",
+        "submission_date": "2012-06-25T10:05:03.493",
+        "sample_ids": [
+          {
+            "db": "NISC",
+            "label": "Sample name",
+            "value": "KPNIH5_D1448796"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS346939"
+          }
+        ],
+        "description": {
+          "title": "Sample from Klebsiella pneumoniae subsp. pneumoniae KPNIH5",
+          "organism": {
+            "tax_id": 1087444,
+            "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH5"
+          },
+          "comment": "Klebsiella pneumoniae subsp. pneumoniae KPNIH5 genomic sample"
+        },
+        "owner": {
+          "name": "NIH Intramural Sequencing Center"
+        },
+        "models": [
+          "Generic"
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "KPNIH5"
+          },
+          {
+            "name": "BioSampleModel",
+            "value": "Generic"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-11-08T00:48:54"
+        },
+        "strain": "KPNIH5"
+      },
+      "comments": "Annotation was added by the NCBI Prokaryotic Genomes Automatic Annotation Pipeline Group. Information about the Pipeline can be found here: http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be aware that the annotation is done automatically with little or no manual curation.\n\nBacteria and source DNA available from: Adrian Zelazny, Department of Laboratory Medicine, National Institutes of Health Clinical Center."
+    },
+    "assembly_stats": {
+      "total_sequence_length": "5716297",
+      "total_ungapped_length": "5716297",
+      "number_of_contigs": 168,
+      "contig_n50": 126254,
+      "contig_l50": 15,
+      "number_of_scaffolds": 168,
+      "scaffold_n50": 126254,
+      "scaffold_l50": 15,
+      "number_of_component_sequences": 168,
+      "atgc_count": "5716291",
+      "gc_count": "3270359",
+      "gc_percent": 57,
+      "genome_coverage": "21"
+    },
+    "annotation_info": {
+      "name": "Annotation submitted by NIH Intramural Sequencing Center",
+      "provider": "NIH Intramural Sequencing Center",
+      "release_date": "2012-07-24",
+      "stats": {
+        "gene_counts": {
+          "total": 5737,
+          "protein_coding": 5626,
+          "non_coding": 111
+        }
+      }
+    },
+    "wgs_info": {
+      "wgs_project_accession": "AJZX01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/AJZX00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/AJZX01"
+    },
+    "checkm_info": {
+      "checkm_marker_set": "Klebsiella pneumoniae",
+      "checkm_species_tax_id": 573,
+      "checkm_marker_set_rank": "species",
+      "checkm_version": "v1.2.5",
+      "completeness": 98.83,
+      "contamination": 0.19,
+      "completeness_percentile": 65.1093
+    },
+    "average_nucleotide_identity": {
+      "taxonomy_check_status": "OK",
+      "match_status": "derived_species_match",
+      "submitted_organism": "Klebsiella pneumoniae subsp. pneumoniae KPNIH5",
+      "submitted_species": "Klebsiella pneumoniae",
+      "category": "category_na",
+      "submitted_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae subsp. pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.43,
+        "type_assembly_coverage": 98.27
+      },
+      "best_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.43,
+        "type_assembly_coverage": 98.27
+      },
+      "comment": "na"
+    }
+  },
+  {
+    "accession": "GCA_000281295.1",
+    "current_accession": "GCA_000281295.1",
+    "paired_accession": "GCF_000281295.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 1087445,
+      "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH6",
+      "infraspecific_names": {
+        "strain": "KPNIH6"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCF_000281295.1",
+        "status": "current",
+        "annotation_name": "GCF_000281295.1-RS_2026_09_13"
+      },
+      "assembly_name": "KPNIH6_1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA73203",
+              "title": "Klebsiella pneumoniae subsp. pneumoniae KPNIH6 Genome sequencing and assembly",
+              "parent_accessions": [
+                "PRJNA188534"
+              ]
+            },
+            {
+              "accession": "PRJNA188534",
+              "title": "National Institutes of Health Clinical Center Klebsiella Outbreak 2011 Study"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA73203",
+      "release_date": "2012-07-24",
+      "submitter": "NIH Intramural Sequencing Center",
+      "sequencing_tech": "454 GS FLX",
+      "assembly_method": "Newbler v. 2.5.3",
+      "biosample": {
+        "accession": "SAMN01057608",
+        "last_updated": "2014-11-08T02:20:46.810",
+        "publication_date": "2012-07-27T07:44:11.587",
+        "submission_date": "2012-06-25T10:05:03.537",
+        "sample_ids": [
+          {
+            "db": "NISC",
+            "label": "Sample name",
+            "value": "KPNIH6_D1448797"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS346940"
+          }
+        ],
+        "description": {
+          "title": "Sample from Klebsiella pneumoniae subsp. pneumoniae KPNIH6",
+          "organism": {
+            "tax_id": 1087445,
+            "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH6"
+          },
+          "comment": "Klebsiella pneumoniae subsp. pneumoniae KPNIH6 genomic sample"
+        },
+        "owner": {
+          "name": "NIH Intramural Sequencing Center"
+        },
+        "models": [
+          "Generic"
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "KPNIH6"
+          },
+          {
+            "name": "BioSampleModel",
+            "value": "Generic"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-11-08T00:48:54"
+        },
+        "strain": "KPNIH6"
+      },
+      "comments": "Annotation was added by the NCBI Prokaryotic Genomes Automatic Annotation Pipeline Group. Information about the Pipeline can be found here: http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be aware that the annotation is done automatically with little or no manual curation.\n\nBacteria and source DNA available from: Adrian Zelazny, Department of Laboratory Medicine, National Institutes of Health Clinical Center."
+    },
+    "assembly_stats": {
+      "total_sequence_length": "5714943",
+      "total_ungapped_length": "5714943",
+      "number_of_contigs": 149,
+      "contig_n50": 130041,
+      "contig_l50": 14,
+      "number_of_scaffolds": 149,
+      "scaffold_n50": 130041,
+      "scaffold_l50": 14,
+      "number_of_component_sequences": 149,
+      "atgc_count": "5714938",
+      "gc_count": "3270196",
+      "gc_percent": 57,
+      "genome_coverage": "27"
+    },
+    "annotation_info": {
+      "name": "Annotation submitted by NIH Intramural Sequencing Center",
+      "provider": "NIH Intramural Sequencing Center",
+      "release_date": "2012-07-24",
+      "stats": {
+        "gene_counts": {
+          "total": 5734,
+          "protein_coding": 5620,
+          "non_coding": 114
+        }
+      }
+    },
+    "wgs_info": {
+      "wgs_project_accession": "AJZY01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/AJZY00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/AJZY01"
+    },
+    "checkm_info": {
+      "checkm_marker_set": "Klebsiella pneumoniae",
+      "checkm_species_tax_id": 573,
+      "checkm_marker_set_rank": "species",
+      "checkm_version": "v1.2.5",
+      "completeness": 99.16,
+      "contamination": 0.19,
+      "completeness_percentile": 95.0787
+    },
+    "average_nucleotide_identity": {
+      "taxonomy_check_status": "OK",
+      "match_status": "derived_species_match",
+      "submitted_organism": "Klebsiella pneumoniae subsp. pneumoniae KPNIH6",
+      "submitted_species": "Klebsiella pneumoniae",
+      "category": "category_na",
+      "submitted_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae subsp. pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.45,
+        "type_assembly_coverage": 98.26
+      },
+      "best_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.45,
+        "type_assembly_coverage": 98.26
+      },
+      "comment": "na"
+    }
+  },
+  {
+    "accession": "GCA_000281415.1",
+    "current_accession": "GCA_000281415.1",
+    "paired_accession": "GCF_000281415.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 1094167,
+      "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH7",
+      "infraspecific_names": {
+        "strain": "KPNIH7"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCF_000281415.1",
+        "status": "current",
+        "annotation_name": "GCF_000281415.1-RS_2025_04_26"
+      },
+      "assembly_name": "KPNIH7_1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA73837",
+              "title": "Klebsiella pneumoniae subsp. pneumoniae KPNIH7 Genome sequencing and assembly",
+              "parent_accessions": [
+                "PRJNA188534"
+              ]
+            },
+            {
+              "accession": "PRJNA188534",
+              "title": "National Institutes of Health Clinical Center Klebsiella Outbreak 2011 Study"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA73837",
+      "release_date": "2012-07-24",
+      "submitter": "NISC",
+      "sequencing_tech": "454 GS FLX",
+      "assembly_method": "Newbler v. 2.5.3",
+      "biosample": {
+        "accession": "SAMN01057711",
+        "last_updated": "2014-11-08T02:20:51.020",
+        "publication_date": "2012-07-27T07:44:12.130",
+        "submission_date": "2012-06-25T15:05:12.387",
+        "sample_ids": [
+          {
+            "db": "NISC",
+            "label": "Sample name",
+            "value": "KPNIH7_D1558279"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS347043"
+          }
+        ],
+        "description": {
+          "title": "Sample from Klebsiella pneumoniae subsp. pneumoniae KPNIH7",
+          "organism": {
+            "tax_id": 1094167,
+            "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH7"
+          },
+          "comment": "Klebsiella pneumoniae subsp. pneumoniae KPNIH7 genomic sample"
+        },
+        "owner": {
+          "name": "NIH Intramural Sequencing Center"
+        },
+        "models": [
+          "Generic"
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "KPNIH7"
+          },
+          {
+            "name": "BioSampleModel",
+            "value": "Generic"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-11-08T00:48:57"
+        },
+        "strain": "KPNIH7"
+      },
+      "comments": "Annotation was added by the NCBI Prokaryotic Genomes Automatic Annotation Pipeline Group. Information about the Pipeline can be found here: http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be aware that the annotation is done automatically with little or no manual curation.\n\nBacteria and source DNA available from: Adrian Zelazny, Department of Laboratory Medicine, National Institutes of Health Clinical Center."
+    },
+    "assembly_stats": {
+      "total_sequence_length": "5723848",
+      "total_ungapped_length": "5723848",
+      "number_of_contigs": 160,
+      "contig_n50": 158114,
+      "contig_l50": 13,
+      "number_of_scaffolds": 160,
+      "scaffold_n50": 158114,
+      "scaffold_l50": 13,
+      "number_of_component_sequences": 160,
+      "atgc_count": "5723845",
+      "gc_count": "3274433",
+      "gc_percent": 57,
+      "genome_coverage": "30"
+    },
+    "annotation_info": {
+      "name": "Annotation submitted by NISC",
+      "provider": "NISC",
+      "release_date": "2012-07-24",
+      "stats": {
+        "gene_counts": {
+          "total": 5734,
+          "protein_coding": 5619,
+          "non_coding": 115
+        }
+      }
+    },
+    "wgs_info": {
+      "wgs_project_accession": "AJZZ01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/AJZZ00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/AJZZ01"
+    },
+    "checkm_info": {
+      "checkm_marker_set": "Klebsiella pneumoniae",
+      "checkm_species_tax_id": 573,
+      "checkm_marker_set_rank": "species",
+      "checkm_version": "v1.2.3",
+      "completeness": 98.98,
+      "contamination": 0.19,
+      "completeness_percentile": 74.1609
+    },
+    "average_nucleotide_identity": {
+      "taxonomy_check_status": "OK",
+      "match_status": "derived_species_match",
+      "submitted_organism": "Klebsiella pneumoniae subsp. pneumoniae KPNIH7",
+      "submitted_species": "Klebsiella pneumoniae",
+      "category": "category_na",
+      "submitted_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae subsp. pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.37,
+        "type_assembly_coverage": 98.33
+      },
+      "best_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.37,
+        "type_assembly_coverage": 98.33
+      },
+      "comment": "na"
+    }
+  },
+  {
+    "accession": "GCA_000281555.1",
+    "current_accession": "GCA_000281555.1",
+    "paired_accession": "GCF_000281555.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 1094168,
+      "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH8",
+      "infraspecific_names": {
+        "strain": "KPNIH8"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCF_000281555.1",
+        "status": "current",
+        "annotation_name": "GCF_000281555.1-RS_2026_09_13"
+      },
+      "assembly_name": "KPNIH8_1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA73839",
+              "title": "Klebsiella pneumoniae subsp. pneumoniae KPNIH8 Genome sequencing and assembly",
+              "parent_accessions": [
+                "PRJNA188534"
+              ]
+            },
+            {
+              "accession": "PRJNA188534",
+              "title": "National Institutes of Health Clinical Center Klebsiella Outbreak 2011 Study"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA73839",
+      "release_date": "2012-07-24",
+      "submitter": "NISC",
+      "sequencing_tech": "454 GS FLX",
+      "assembly_method": "Newbler v. 2.5.3",
+      "biosample": {
+        "accession": "SAMN01057612",
+        "last_updated": "2014-11-08T02:20:46.983",
+        "publication_date": "2012-07-27T07:44:11.723",
+        "submission_date": "2012-06-25T10:05:03.697",
+        "sample_ids": [
+          {
+            "db": "NISC",
+            "label": "Sample name",
+            "value": "KPNIH8_D1558280"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS346944"
+          }
+        ],
+        "description": {
+          "title": "Sample from Klebsiella pneumoniae subsp. pneumoniae KPNIH8",
+          "organism": {
+            "tax_id": 1094168,
+            "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH8"
+          },
+          "comment": "Klebsiella pneumoniae subsp. pneumoniae KPNIH8 genomic sample"
+        },
+        "owner": {
+          "name": "NIH Intramural Sequencing Center"
+        },
+        "models": [
+          "Generic"
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "KPNIH8"
+          },
+          {
+            "name": "BioSampleModel",
+            "value": "Generic"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-11-08T00:48:54"
+        },
+        "strain": "KPNIH8"
+      },
+      "comments": "Annotation was added by the NCBI Prokaryotic Genomes Automatic Annotation Pipeline Group. Information about the Pipeline can be found here: http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be aware that the annotation is done automatically with little or no manual curation.\n\nBacteria and source DNA available from: Adrian Zelazny, Department of Laboratory Medicine, National Institutes of Health Clinical Center."
+    },
+    "assembly_stats": {
+      "total_sequence_length": "5714705",
+      "total_ungapped_length": "5714705",
+      "number_of_contigs": 182,
+      "contig_n50": 158021,
+      "contig_l50": 12,
+      "number_of_scaffolds": 182,
+      "scaffold_n50": 158021,
+      "scaffold_l50": 12,
+      "number_of_component_sequences": 182,
+      "atgc_count": "5714700",
+      "gc_count": "3271577",
+      "gc_percent": 57,
+      "genome_coverage": "20"
+    },
+    "annotation_info": {
+      "name": "Annotation submitted by NISC",
+      "provider": "NISC",
+      "release_date": "2012-07-24",
+      "stats": {
+        "gene_counts": {
+          "total": 5749,
+          "protein_coding": 5634,
+          "non_coding": 115
+        }
+      }
+    },
+    "wgs_info": {
+      "wgs_project_accession": "AKAA01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/AKAA00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/AKAA01"
+    },
+    "checkm_info": {
+      "checkm_marker_set": "Klebsiella pneumoniae",
+      "checkm_species_tax_id": 573,
+      "checkm_marker_set_rank": "species",
+      "checkm_version": "v1.2.5",
+      "completeness": 99.2,
+      "contamination": 0.19,
+      "completeness_percentile": 96.2529
+    },
+    "average_nucleotide_identity": {
+      "taxonomy_check_status": "OK",
+      "match_status": "derived_species_match",
+      "submitted_organism": "Klebsiella pneumoniae subsp. pneumoniae KPNIH8",
+      "submitted_species": "Klebsiella pneumoniae",
+      "category": "category_na",
+      "submitted_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae subsp. pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.39,
+        "type_assembly_coverage": 98.19
+      },
+      "best_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.39,
+        "type_assembly_coverage": 98.19
+      },
+      "comment": "na"
+    }
+  },
+  {
+    "accession": "GCA_000281315.1",
+    "current_accession": "GCA_000281315.1",
+    "paired_accession": "GCF_000281315.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 1094169,
+      "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH9",
+      "infraspecific_names": {
+        "strain": "KPNIH9"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCF_000281315.1",
+        "status": "current",
+        "annotation_name": "GCF_000281315.1-RS_2026_09_13"
+      },
+      "assembly_name": "KPNIH9_1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA73841",
+              "title": "Klebsiella pneumoniae subsp. pneumoniae KPNIH9 Genome sequencing and assembly",
+              "parent_accessions": [
+                "PRJNA188534"
+              ]
+            },
+            {
+              "accession": "PRJNA188534",
+              "title": "National Institutes of Health Clinical Center Klebsiella Outbreak 2011 Study"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA73841",
+      "release_date": "2012-07-24",
+      "submitter": "NISC",
+      "sequencing_tech": "454 GS FLX",
+      "assembly_method": "Newbler v. 2.5.3",
+      "biosample": {
+        "accession": "SAMN01057613",
+        "last_updated": "2014-11-08T02:20:47.050",
+        "publication_date": "2012-07-27T07:44:11.743",
+        "submission_date": "2012-06-25T10:05:03.760",
+        "sample_ids": [
+          {
+            "db": "NISC",
+            "label": "Sample name",
+            "value": "KPNIH9_D1558282"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS346945"
+          }
+        ],
+        "description": {
+          "title": "Sample from Klebsiella pneumoniae subsp. pneumoniae KPNIH9",
+          "organism": {
+            "tax_id": 1094169,
+            "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH9"
+          },
+          "comment": "Klebsiella pneumoniae subsp. pneumoniae KPNIH9 genomic sample"
+        },
+        "owner": {
+          "name": "NIH Intramural Sequencing Center"
+        },
+        "models": [
+          "Generic"
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "KPNIH9"
+          },
+          {
+            "name": "BioSampleModel",
+            "value": "Generic"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-11-08T00:48:54"
+        },
+        "strain": "KPNIH9"
+      },
+      "comments": "Annotation was added by the NCBI Prokaryotic Genomes Automatic Annotation Pipeline Group. Information about the Pipeline can be found here: http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be aware that the annotation is done automatically with little or no manual curation.\n\nBacteria and source DNA available from: Adrian Zelazny, Department of Laboratory Medicine, National Institutes of Health Clinical Center."
+    },
+    "assembly_stats": {
+      "total_sequence_length": "5720331",
+      "total_ungapped_length": "5720331",
+      "number_of_contigs": 115,
+      "contig_n50": 178365,
+      "contig_l50": 11,
+      "number_of_scaffolds": 115,
+      "scaffold_n50": 178365,
+      "scaffold_l50": 11,
+      "number_of_component_sequences": 115,
+      "atgc_count": "5720331",
+      "gc_count": "3272125",
+      "gc_percent": 57,
+      "genome_coverage": "38"
+    },
+    "annotation_info": {
+      "name": "Annotation submitted by NISC",
+      "provider": "NISC",
+      "release_date": "2012-07-24",
+      "stats": {
+        "gene_counts": {
+          "total": 5725,
+          "protein_coding": 5613,
+          "non_coding": 112
+        }
+      }
+    },
+    "wgs_info": {
+      "wgs_project_accession": "AKAB01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/AKAB00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/AKAB01"
+    },
+    "checkm_info": {
+      "checkm_marker_set": "Klebsiella pneumoniae",
+      "checkm_species_tax_id": 573,
+      "checkm_marker_set_rank": "species",
+      "checkm_version": "v1.2.5",
+      "completeness": 99.09,
+      "contamination": 0.19,
+      "completeness_percentile": 93.6988
+    },
+    "average_nucleotide_identity": {
+      "taxonomy_check_status": "OK",
+      "match_status": "derived_species_match",
+      "submitted_organism": "Klebsiella pneumoniae subsp. pneumoniae KPNIH9",
+      "submitted_species": "Klebsiella pneumoniae",
+      "category": "category_na",
+      "submitted_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae subsp. pneumoniae",
+        "category": "type",
+        "ani": 99.99,
+        "assembly_coverage": 98.46,
+        "type_assembly_coverage": 98.36
+      },
+      "best_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae",
+        "category": "type",
+        "ani": 99.99,
+        "assembly_coverage": 98.46,
+        "type_assembly_coverage": 98.36
+      },
+      "comment": "na"
+    }
+  },
+  {
+    "accession": "GCA_000281435.2",
+    "current_accession": "GCA_000281435.2",
+    "paired_accession": "GCF_000281435.2",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 1094170,
+      "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH10",
+      "infraspecific_names": {
+        "strain": "KPNIH10"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Complete Genome",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCF_000281435.2",
+        "status": "current",
+        "annotation_name": "GCF_000281435.2-RS_2026_09_13"
+      },
+      "assembly_name": "ASM28143v2",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA73843",
+              "title": "Klebsiella pneumoniae subsp. pneumoniae KPNIH10 Genome sequencing",
+              "parent_accessions": [
+                "PRJNA188534",
+                "PRJNA251756"
+              ]
+            },
+            {
+              "accession": "PRJNA188534",
+              "title": "National Institutes of Health Clinical Center Klebsiella Outbreak 2011 Study"
+            },
+            {
+              "accession": "PRJNA251756",
+              "title": "National Institutes of Health Clinical Center Carbapenem Resistant Enterobacteriaceae"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA73843",
+      "release_date": "2014-05-27",
+      "submitter": "NISC",
+      "sequencing_tech": "Pacific Biosciences RS II",
+      "assembly_method": "HGAP v. 2",
+      "biosample": {
+        "accession": "SAMN01057614",
+        "last_updated": "2015-02-10T11:01:19.257",
+        "publication_date": "2012-07-27T07:44:11.763",
+        "submission_date": "2012-06-25T10:05:03.797",
+        "sample_ids": [
+          {
+            "db": "NISC",
+            "label": "Sample name",
+            "value": "KPNIH10_D1558283"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS346946"
+          }
+        ],
+        "description": {
+          "title": "Sample from Klebsiella pneumoniae subsp. pneumoniae KPNIH10",
+          "organism": {
+            "tax_id": 1094170,
+            "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH10"
+          },
+          "comment": "Klebsiella pneumoniae subsp. pneumoniae KPNIH10 genomic sample"
+        },
+        "owner": {
+          "name": "NIH Intramural Sequencing Center"
+        },
+        "models": [
+          "Generic"
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "KPNIH10"
+          },
+          {
+            "name": "BioSampleModel",
+            "value": "Generic"
+          },
+          {
+            "name": "sub_species",
+            "value": "pneumoniae"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-11-08T00:48:54"
+        },
+        "strain": "KPNIH10",
+        "sub_species": "pneumoniae"
+      },
+      "comments": "Annotation was added by the NCBI Prokaryotic Genome Annotation Pipeline (released 2013). Information about the Pipeline can be found here: http://www.ncbi.nlm.nih.gov/genome/annotation_prok/\n\nBacteria and source DNA available from: Adrian Zelazny, Department of Laboratory Medicine, National Institutes of Health Clinical Center."
+    },
+    "assembly_stats": {
+      "total_number_of_chromosomes": 4,
+      "total_sequence_length": "5767822",
+      "total_ungapped_length": "5767822",
+      "number_of_contigs": 4,
+      "contig_n50": 5395263,
+      "contig_l50": 1,
+      "number_of_scaffolds": 4,
+      "scaffold_n50": 5395263,
+      "scaffold_l50": 1,
+      "number_of_component_sequences": 4,
+      "atgc_count": "5767822",
+      "gc_count": "3297245",
+      "gc_percent": 57,
+      "genome_coverage": "160"
+    },
+    "annotation_info": {
+      "name": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)",
+      "provider": "NCBI",
+      "release_date": "2014-05-06",
+      "stats": {
+        "gene_counts": {
+          "total": 5536,
+          "protein_coding": 5397,
+          "non_coding": 119,
+          "pseudogene": 20
+        }
+      },
+      "method": "Best-placed reference protein set; GeneMarkS+",
+      "pipeline": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)",
+      "software_version": "2.5 (rev. 434060)"
+    },
+    "checkm_info": {
+      "checkm_marker_set": "Klebsiella pneumoniae",
+      "checkm_species_tax_id": 573,
+      "checkm_marker_set_rank": "species",
+      "checkm_version": "v1.2.5",
+      "completeness": 99.24,
+      "contamination": 0.19,
+      "completeness_percentile": 97.2213
+    },
+    "average_nucleotide_identity": {
+      "taxonomy_check_status": "OK",
+      "match_status": "derived_species_match",
+      "submitted_organism": "Klebsiella pneumoniae subsp. pneumoniae KPNIH10",
+      "submitted_species": "Klebsiella pneumoniae",
+      "category": "category_na",
+      "submitted_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae subsp. pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 97.68,
+        "type_assembly_coverage": 98.4
+      },
+      "best_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 97.68,
+        "type_assembly_coverage": 98.4
+      },
+      "comment": "na"
+    }
+  },
+  {
+    "accession": "GCA_000281575.1",
+    "current_accession": "GCA_000281575.1",
+    "paired_accession": "GCF_000281575.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 1094171,
+      "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH11",
+      "infraspecific_names": {
+        "strain": "KPNIH11"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCF_000281575.1",
+        "status": "current",
+        "annotation_name": "GCF_000281575.1-RS_2026_09_13"
+      },
+      "assembly_name": "KPNIH11_1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA73845",
+              "title": "Klebsiella pneumoniae subsp. pneumoniae KPNIH11 Genome sequencing and assembly",
+              "parent_accessions": [
+                "PRJNA188534"
+              ]
+            },
+            {
+              "accession": "PRJNA188534",
+              "title": "National Institutes of Health Clinical Center Klebsiella Outbreak 2011 Study"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA73845",
+      "release_date": "2012-07-24",
+      "submitter": "NISC",
+      "sequencing_tech": "454 GS FLX",
+      "assembly_method": "Newbler v. 2.5.3",
+      "biosample": {
+        "accession": "SAMN01057620",
+        "last_updated": "2014-11-08T02:20:47.527",
+        "publication_date": "2012-07-27T07:44:11.780",
+        "submission_date": "2012-06-25T10:05:06.800",
+        "sample_ids": [
+          {
+            "db": "NISC",
+            "label": "Sample name",
+            "value": "KPNIH11_D1621900"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS346952"
+          }
+        ],
+        "description": {
+          "title": "Sample from Klebsiella pneumoniae subsp. pneumoniae KPNIH11",
+          "organism": {
+            "tax_id": 1094171,
+            "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH11"
+          },
+          "comment": "Klebsiella pneumoniae subsp. pneumoniae KPNIH11 genomic sample"
+        },
+        "owner": {
+          "name": "NIH Intramural Sequencing Center"
+        },
+        "models": [
+          "Generic"
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "KPNIH11"
+          },
+          {
+            "name": "BioSampleModel",
+            "value": "Generic"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-11-08T00:48:54"
+        },
+        "strain": "KPNIH11"
+      },
+      "comments": "Annotation was added by the NCBI Prokaryotic Genomes Automatic Annotation Pipeline Group. Information about the Pipeline can be found here: http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be aware that the annotation is done automatically with little or no manual curation.\n\nBacteria and source DNA available from: Adrian Zelazny, Department of Laboratory Medicine, National Institutes of Health Clinical Center."
+    },
+    "assembly_stats": {
+      "total_sequence_length": "5714016",
+      "total_ungapped_length": "5714016",
+      "number_of_contigs": 185,
+      "contig_n50": 150495,
+      "contig_l50": 13,
+      "number_of_scaffolds": 185,
+      "scaffold_n50": 150495,
+      "scaffold_l50": 13,
+      "number_of_component_sequences": 185,
+      "atgc_count": "5714007",
+      "gc_count": "3269658",
+      "gc_percent": 57,
+      "genome_coverage": "26"
+    },
+    "annotation_info": {
+      "name": "Annotation submitted by NISC",
+      "provider": "NISC",
+      "release_date": "2012-07-24",
+      "stats": {
+        "gene_counts": {
+          "total": 5671,
+          "protein_coding": 5562,
+          "non_coding": 109
+        }
+      }
+    },
+    "wgs_info": {
+      "wgs_project_accession": "AKAD01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/AKAD00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/AKAD01"
+    },
+    "checkm_info": {
+      "checkm_marker_set": "Klebsiella pneumoniae",
+      "checkm_species_tax_id": 573,
+      "checkm_marker_set_rank": "species",
+      "checkm_version": "v1.2.5",
+      "completeness": 99.24,
+      "contamination": 0.19,
+      "completeness_percentile": 97.2213
+    },
+    "average_nucleotide_identity": {
+      "taxonomy_check_status": "OK",
+      "match_status": "derived_species_match",
+      "submitted_organism": "Klebsiella pneumoniae subsp. pneumoniae KPNIH11",
+      "submitted_species": "Klebsiella pneumoniae",
+      "category": "category_na",
+      "submitted_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae subsp. pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.42,
+        "type_assembly_coverage": 98.22
+      },
+      "best_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.42,
+        "type_assembly_coverage": 98.22
+      },
+      "comment": "na"
+    }
+  },
+  {
+    "accession": "GCA_000281335.1",
+    "current_accession": "GCA_000281335.1",
+    "paired_accession": "GCF_000281335.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 1128946,
+      "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH12",
+      "infraspecific_names": {
+        "strain": "KPNIH12"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCF_000281335.1",
+        "status": "current",
+        "annotation_name": "GCF_000281335.1-RS_2026_09_13"
+      },
+      "assembly_name": "KPNIH12_1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA80219",
+              "title": "Klebsiella pneumoniae subsp. pneumoniae KPNIH12 Genome sequencing and assembly",
+              "parent_accessions": [
+                "PRJNA188534"
+              ]
+            },
+            {
+              "accession": "PRJNA188534",
+              "title": "National Institutes of Health Clinical Center Klebsiella Outbreak 2011 Study"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA80219",
+      "release_date": "2012-07-24",
+      "submitter": "NISC",
+      "sequencing_tech": "454 GS FLX",
+      "assembly_method": "Newbler v. 2.5.3",
+      "biosample": {
+        "accession": "SAMN01057621",
+        "last_updated": "2014-11-08T02:20:47.580",
+        "publication_date": "2012-07-27T07:44:11.810",
+        "submission_date": "2012-06-25T10:05:06.843",
+        "sample_ids": [
+          {
+            "db": "NISC",
+            "label": "Sample name",
+            "value": "KPNIH12_D1621901"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS346953"
+          }
+        ],
+        "description": {
+          "title": "Sample from Klebsiella pneumoniae subsp. pneumoniae KPNIH12",
+          "organism": {
+            "tax_id": 1128946,
+            "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH12"
+          },
+          "comment": "Klebsiella pneumoniae subsp. pneumoniae KPNIH12 genomic sample"
+        },
+        "owner": {
+          "name": "NIH Intramural Sequencing Center"
+        },
+        "models": [
+          "Generic"
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "KPNIH12"
+          },
+          {
+            "name": "BioSampleModel",
+            "value": "Generic"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-11-08T00:48:55"
+        },
+        "strain": "KPNIH12"
+      },
+      "comments": "Annotation was added by the NCBI Prokaryotic Genomes Automatic Annotation Pipeline Group. Information about the Pipeline can be found here: http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be aware that the annotation is done automatically with little or no manual curation.\n\nBacteria and source DNA available from: Adrian Zelazny, Department of Laboratory Medicine, National Institutes of Health Clinical Center."
+    },
+    "assembly_stats": {
+      "total_sequence_length": "5719358",
+      "total_ungapped_length": "5719358",
+      "number_of_contigs": 164,
+      "contig_n50": 149661,
+      "contig_l50": 14,
+      "number_of_scaffolds": 164,
+      "scaffold_n50": 149661,
+      "scaffold_l50": 14,
+      "number_of_component_sequences": 164,
+      "atgc_count": "5719355",
+      "gc_count": "3271303",
+      "gc_percent": 57,
+      "genome_coverage": "24"
+    },
+    "annotation_info": {
+      "name": "Annotation submitted by NISC",
+      "provider": "NISC",
+      "release_date": "2012-07-24",
+      "stats": {
+        "gene_counts": {
+          "total": 5679,
+          "protein_coding": 5567,
+          "non_coding": 112
+        }
+      }
+    },
+    "wgs_info": {
+      "wgs_project_accession": "AKAE01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/AKAE00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/AKAE01"
+    },
+    "checkm_info": {
+      "checkm_marker_set": "Klebsiella pneumoniae",
+      "checkm_species_tax_id": 573,
+      "checkm_marker_set_rank": "species",
+      "checkm_version": "v1.2.5",
+      "completeness": 99.08,
+      "contamination": 0.19,
+      "completeness_percentile": 93.1532
+    },
+    "average_nucleotide_identity": {
+      "taxonomy_check_status": "OK",
+      "match_status": "derived_species_match",
+      "submitted_organism": "Klebsiella pneumoniae subsp. pneumoniae KPNIH12",
+      "submitted_species": "Klebsiella pneumoniae",
+      "category": "category_na",
+      "submitted_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae subsp. pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.44,
+        "type_assembly_coverage": 98.33
+      },
+      "best_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.44,
+        "type_assembly_coverage": 98.33
+      },
+      "comment": "na"
+    }
+  },
+  {
+    "accession": "GCA_000281455.1",
+    "current_accession": "GCA_000281455.1",
+    "paired_accession": "GCF_000281455.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 1128948,
+      "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH14",
+      "infraspecific_names": {
+        "strain": "KPNIH14"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCF_000281455.1",
+        "status": "current",
+        "annotation_name": "GCF_000281455.1-RS_2026_09_13"
+      },
+      "assembly_name": "KPNIH14_1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA80223",
+              "title": "Klebsiella pneumoniae subsp. pneumoniae KPNIH14 Genome sequencing and assembly",
+              "parent_accessions": [
+                "PRJNA188534"
+              ]
+            },
+            {
+              "accession": "PRJNA188534",
+              "title": "National Institutes of Health Clinical Center Klebsiella Outbreak 2011 Study"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA80223",
+      "release_date": "2012-07-24",
+      "submitter": "NISC",
+      "sequencing_tech": "454 GS FLX",
+      "assembly_method": "Newbler v. 2.5.3",
+      "biosample": {
+        "accession": "SAMN01057640",
+        "last_updated": "2014-11-08T02:20:47.877",
+        "publication_date": "2013-02-05T12:47:30.423",
+        "submission_date": "2012-06-25T11:05:06.183",
+        "sample_ids": [
+          {
+            "db": "NISC",
+            "label": "Sample name",
+            "value": "KPNIH14_D1621903"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS346972"
+          }
+        ],
+        "description": {
+          "title": "Sample from Klebsiella pneumoniae subsp. pneumoniae KPNIH14",
+          "organism": {
+            "tax_id": 1128948,
+            "organism_name": "Klebsiella pneumoniae subsp. pneumoniae KPNIH14"
+          },
+          "comment": "Klebsiella pneumoniae subsp. pneumoniae KPNIH14 genomic sample"
+        },
+        "owner": {
+          "name": "NIH Intramural Sequencing Center"
+        },
+        "models": [
+          "Generic"
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "KPNIH14"
+          },
+          {
+            "name": "BioSampleModel",
+            "value": "Generic"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-11-08T00:48:55"
+        },
+        "strain": "KPNIH14"
+      },
+      "comments": "Annotation was added by the NCBI Prokaryotic Genomes Automatic Annotation Pipeline Group. Information about the Pipeline can be found here: http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be aware that the annotation is done automatically with little or no manual curation.\n\nBacteria and source DNA available from: Adrian Zelazny, Department of Laboratory Medicine, National Institutes of Health Clinical Center."
+    },
+    "assembly_stats": {
+      "total_sequence_length": "5723355",
+      "total_ungapped_length": "5723355",
+      "number_of_contigs": 165,
+      "contig_n50": 147593,
+      "contig_l50": 14,
+      "number_of_scaffolds": 165,
+      "scaffold_n50": 147593,
+      "scaffold_l50": 14,
+      "number_of_component_sequences": 165,
+      "atgc_count": "5723354",
+      "gc_count": "3273593",
+      "gc_percent": 57,
+      "genome_coverage": "23"
+    },
+    "annotation_info": {
+      "name": "Annotation submitted by NISC",
+      "provider": "NISC",
+      "release_date": "2012-07-24",
+      "stats": {
+        "gene_counts": {
+          "total": 5621,
+          "protein_coding": 5517,
+          "non_coding": 104
+        }
+      }
+    },
+    "wgs_info": {
+      "wgs_project_accession": "AKAF01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/AKAF00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/AKAF01"
+    },
+    "checkm_info": {
+      "checkm_marker_set": "Klebsiella pneumoniae",
+      "checkm_species_tax_id": 573,
+      "checkm_marker_set_rank": "species",
+      "checkm_version": "v1.2.5",
+      "completeness": 97.42,
+      "contamination": 0.28,
+      "completeness_percentile": 6.39937
+    },
+    "average_nucleotide_identity": {
+      "taxonomy_check_status": "OK",
+      "match_status": "derived_species_match",
+      "submitted_organism": "Klebsiella pneumoniae subsp. pneumoniae KPNIH14",
+      "submitted_species": "Klebsiella pneumoniae",
+      "category": "category_na",
+      "submitted_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae subsp. pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.41,
+        "type_assembly_coverage": 98.36
+      },
+      "best_ani_match": {
+        "assembly": "GCA_000788015.1",
+        "organism_name": "Klebsiella pneumoniae",
+        "category": "type",
+        "ani": 99.98,
+        "assembly_coverage": 98.41,
+        "type_assembly_coverage": 98.36
+      },
+      "comment": "na"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+sample	accession	biosample	bioproject	release_date	assembly_level	sequencing_technology	archive_species
+KPNIH1	GCA_000281535.2	SAMN01057611	PRJNA73191	2014-07-02	Complete Genome	Pacific Biosciences RS II	Klebsiella pneumoniae subsp. pneumoniae KPNIH1
+KPNIH2	GCA_000281255.1	SAMN01057609	PRJNA73195	2012-07-24	Contig	454 GS FLX	Klebsiella pneumoniae subsp. pneumoniae KPNIH2
+KPNIH4	GCA_000281395.1	SAMN01057606	PRJNA73199	2012-07-24	Contig	454 GS FLX	Klebsiella pneumoniae subsp. pneumoniae KPNIH4
+KPNIH5	GCA_000281275.1	SAMN01057607	PRJNA73201	2012-07-24	Contig	454 GS FLX	Klebsiella pneumoniae subsp. pneumoniae KPNIH5
+KPNIH6	GCA_000281295.1	SAMN01057608	PRJNA73203	2012-07-24	Contig	454 GS FLX	Klebsiella pneumoniae subsp. pneumoniae KPNIH6
+KPNIH7	GCA_000281415.1	SAMN01057711	PRJNA73837	2012-07-24	Contig	454 GS FLX	Klebsiella pneumoniae subsp. pneumoniae KPNIH7
+KPNIH8	GCA_000281555.1	SAMN01057612	PRJNA73839	2012-07-24	Contig	454 GS FLX	Klebsiella pneumoniae subsp. pneumoniae KPNIH8
+KPNIH9	GCA_000281315.1	SAMN01057613	PRJNA73841	2012-07-24	Contig	454 GS FLX	Klebsiella pneumoniae subsp. pneumoniae KPNIH9
+KPNIH10	GCA_000281435.2	SAMN01057614	PRJNA73843	2014-05-27	Complete Genome	Pacific Biosciences RS II	Klebsiella pneumoniae subsp. pneumoniae KPNIH10
+KPNIH11	GCA_000281575.1	SAMN01057620	PRJNA73845	2012-07-24	Contig	454 GS FLX	Klebsiella pneumoniae subsp. pneumoniae KPNIH11
+KPNIH12	GCA_000281335.1	SAMN01057621	PRJNA80219	2012-07-24	Contig	454 GS FLX	Klebsiella pneumoniae subsp. pneumoniae KPNIH12
+KPNIH14	GCA_000281455.1	SAMN01057640	PRJNA80223	2012-07-24	Contig	454 GS FLX	Klebsiella pneumoniae subsp. pneumoniae KPNIH14

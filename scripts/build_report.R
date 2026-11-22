@@ -1,4 +1,6 @@
 source('scripts/load.R')
+source('case_study/report_sections.R')
+pub<-public_sections()
 s<-read.csv('results/performance_summary.csv')
 value<-function(scenario,metric,method='Genomic + epidemiology'){z<-s[s$scenario==scenario&s$threshold==5&s$metric==metric&s$method==method,];sprintf('%.1f%%',100*z$mean)}
 wgs<-file.exists('results/wgs/wgs_validation.json') && isTRUE(jsonlite::read_json('results/wgs/wgs_validation.json')$passed)
@@ -10,14 +12,16 @@ if(wgs){
  if(file.exists('figures/observed_phylogeny.png'))wgsextra<-c(wgsextra,'The observed-sequence tree retains close background relatives within the two genetic groups. Bootstrap support describes stability of genetic splits under the fitted model; it cannot distinguish a planted outbreak link from shared ancestry. Low-diversity tip relationships can remain uncertain.','![Figure 8 Maximum-likelihood tree from QC-passing observed core sequences](figures/observed_phylogeny.png)')
 }
 body<-c(
-'# Hospital genomic surveillance under incomplete sampling and uncertain sequence quality',
+'# Hospital genomic surveillance with simulation and public Klebsiella genome validation',
 '**Vusumuzi Mabasa**',
 '## Abstract',
-'**Fully synthetic research demonstration. No NICD, CHARM or patient data are used. This independent project has no institutional affiliation or endorsement.** We evaluated candidate outbreak links using genetic distance alone and genetic distance combined with hospital, ward and collection-date information. One hundred independently seeded populations of 150 isolates were assessed under four paired observation scenarios and three prespecified thresholds. A separate compact Nextflow experiment processes artificial short-read data with standard sequencing tools.',
+'**The simulation experiments use synthetic data. The public case study uses published bacterial genome assemblies from the NIH outbreak. This independent project has no institutional affiliation or endorsement.** We evaluated candidate outbreak links using genetic distance alone and genetic distance combined with hospital, ward and collection-date information. One hundred independently seeded populations of 150 isolates were assessed under four paired observation scenarios and three prespecified thresholds. A separate compact Nextflow experiment processes artificial short-read data with standard sequencing tools.',
 sprintf('At the primary toy threshold, adding epidemiological evidence increased mean precision from %s to %s in the baseline scenario, with sensitivity of %s for both methods. Missing metadata reduced integrated sensitivity to %s. These results quantify consequences of the simulation assumptions rather than performance in actual hospitals.',value('baseline','precision','Genomic only'),value('baseline','precision'),value('baseline','sensitivity_all'),value('missing_metadata','sensitivity_all')),
+pub$abstract,
 '## Introduction',
 'Healthcare-associated infection surveillance links laboratory findings to the place and time of patient care. Related bacterial isolates can indicate a common circulating lineage, an outbreak, or other shared ancestry. Genetic similarity therefore needs epidemiological interpretation. The work is motivated by the surveillance and bioinformatics activities described by the NICD Centre for Healthcare-Associated Infections, Antimicrobial Resistance and Mycoses [1].',
 'The clinical motivating organism is carbapenem-resistant Klebsiella pneumoniae. However, the generated core haplotypes are random computational sequences, not reconstructed K. pneumoniae genomes. The aim is methodological: determine when metadata improve candidate-link precision and when incomplete ascertainment or poor quality limits recovery of known links.',
+'A second objective is to assess whether the separate public-genome workflow recovers established lineage and carbapenemase findings from a published hospital outbreak. This case study adds observed bacterial sequence evidence while retaining the distinction between known simulated links and published outbreak context.',
 '## Methods',
 '### Population and sequence model',
 'Each synthetic population contains 150 distinct people with one isolate each, three hospitals, three ward categories and collection dates within 2025. Three planted clusters contain 12 isolates each and share a hospital, ward and a 21-day collection period. Twelve lineage founders are formed by changing 60 sites in a common 6,000-site random ancestor. Each isolate receives Poisson(2) private substitutions. Background isolates can share founders with outbreak isolates; six deliberately close background comparators have collection dates outside the outbreak windows. Cluster membership is an evaluation label and does not enter detection.',
@@ -38,6 +42,7 @@ sprintf('At the primary toy threshold, adding epidemiological evidence increased
 'IQ-TREE estimates a GTR+G maximum-likelihood tree from QC-passing observed full-core alignments with 1,000 ultrafast bootstraps and a fixed seed [3]. The separate R neighbour-joining tree uses complete truth distances; it is arbitrarily rooted for display and does not establish transmission direction. Tool installation environments and execution records accompany the workflow.',
 '### Descriptive surveillance and clinical associations',
 'One prespecified population illustrates monthly isolate counts, Wilson intervals for simulated resistance proportions and Fisher testing of hospital differences. Synthetic gene carriage depends on hospital and planted-cluster membership; binary phenotypic non-susceptibility probabilities are 0.90 in carriers and 0.08 otherwise. These are not measured MICs. Mortality is generated by logistic(-2.5+0.5 gene+0.8 severity+0.015(age-55)), then analysed using logistic regression with gene, age, severity and hospital. The single-cohort Wald intervals and P values are exploratory. No causal effect, incidence rate, clinical prediction accuracy or real resistance burden is inferred.',
+pub$methods,
 '## Results',
 'All 100 populations completed, giving 400 scenario observations and 2,400 threshold-method evaluations. The primary comparison demonstrates that close relatives outside planted outbreaks create false candidate links under a genomic-only rule. Metadata improve precision in this deliberately challenging model.',
 '| Scenario | Genomic-only precision | Integrated precision | Genomic-only sensitivity | Integrated sensitivity |',
@@ -56,26 +61,36 @@ vapply(names(labels),function(x)sprintf('| %s | %s | %s | %s | %s |',labels[x],v
 '![Figure 6 True core SNP distances](figures/snp_heatmap.png)',
 'Resistance proportions differ across hospitals because hospital dependence was built into gene carriage and phenotypes. Numerical counts, Wilson intervals, genotype-phenotype cross-tabulations and adjusted mortality associations are available as result tables.',
 '![Figure 7 Simulated resistance proportions](figures/resistance_proportions.png)',
-execution,wgsextra,
+execution,wgsextra,pub$results,
 '## Discussion',
+pub$discussion,
 'The study supports an analytical principle under explicit assumptions: combine sequence relatedness with epidemiological information, and quantify what surveillance cannot observe. The baseline precision advantage is large partly because background isolates share the same low-diversity founders as outbreaks. It is not an empirical estimate of the value of NICD surveillance. Missing data are generated independently; outcome-dependent sampling, ward transfers, cross-hospital spread and missingness related to clinical severity could behave differently.',
 'The strict ward-and-date rule can miss real spread across wards or long intervals. Unsampled intermediates are not reconstructed. The pairwise observation model is not a replacement for read simulation, and the small sequencing experiment validates computational behaviour rather than genomic realism. Recombination masking, species confirmation, MLST, contamination mixtures, plasmid reconstruction and larger external clinical datasets would be needed for a production bacterial-genomics study.',
 'The two-gene screen deliberately tests known positive and negative computational controls. It does not establish sensitivity to novel alleles, fragmented genes, divergent databases or phenotypic resistance. Synthetic mortality associations are illustrative and do not justify therapeutic recommendations.',
 '## Conclusion',
-'Reproducible hospital genomic surveillance requires explicit detection rules, quality gates, sampling denominators and evidence from place and time. This independent synthetic study makes those choices auditable and tests them against known labels. It provides a reusable workflow and research demonstration while leaving clinical conclusions to appropriately validated real data.',
+'The simulations quantify detection tradeoffs under known truth, while the public genome case study recovers the reported ST258 lineage and KPC-family resistance determinant. Their complementary evidence supports an auditable workflow with explicit quality gates and reference versions. Exact variant replication, resistance phenotypes and patient transmission require additional evidence beyond this selected assembly-based reanalysis.',
 '## Reproducibility',
+'The original simulation results remain unchanged. The baseline Word report, Quarto source and README snapshot are retained under report/archive, and the simulation-baseline-20261122 Git tag preserves the original release. The case study has its own inputs, workflow, results and figures under case_study. SHA256 checks verify preservation of the original simulation data, figures and execution records.',
+'[Original simulation Word report](report/archive/Hospital_AMR_Simulation_Baseline.docx) | [Preserved simulation checksums](case_study/provenance/preserved_simulation_sha256.json) | [Public input manifest](case_study/provenance/input_manifest.json)',
 'The project is stored on Toshiba at `D:/Hospital-AMR-Genomic-Surveillance`. Statistical analyses and figures use R; Python generates and checks short-read fixtures; Nextflow orchestrates Linux sequencing tools. All simulation configurations, seeds, synthetic metadata, summary tables and Newick trees are public. No correspondence or private clinical data are included.',
 '```sh\nRscript --vanilla scripts/restore.R\nRscript --vanilla scripts/run.R\nRscript --vanilla tests/test_simulation.R\npython3 scripts/prepare_wgs.py\nnextflow run main.nf -resume\nRscript --vanilla scripts/plot_wgs.R\nRscript --vanilla scripts/build_report.R\nRscript --vanilla scripts/render_report.R\nRscript --vanilla scripts/audit.R\n```',
 'Activate the Linux environment in environment.yml before running Nextflow. The pinned conda specification is supplied for recreation; recorded local tool versions document the actual execution environment. Transitive dependency resolution may change. The Windows report renderer locates the installed RStudio Quarto executable when it is not on PATH.',
+'For the public case study, activate case_study/environment.yml, fetch the locked inputs and database source files, and build the database indexes. An existing verified database directory can be supplied through --amr_db to avoid downloading it again. See RUN_WORKFLOW.txt for Toshiba and WSL paths.',
+'```sh\npython3 case_study/scripts/fetch_inputs.py --amr\namrfinder_index case_study/cache/amrfinder/2026-08-07.1\npython3 case_study/scripts/test_assembly_analysis.py -v\nnextflow -C case_study/nextflow.config run case_study/main.nf -resume\nRscript --vanilla case_study/analyse.R\npython3 case_study/scripts/audit.py\nRscript --vanilla scripts/build_report.R\nRscript --vanilla scripts/render_report.R\n```',
 '[Word report](report/Hospital_AMR_Report.docx) | [Quarto source](report/Hospital_AMR_Report.qmd) | [Performance tables](results/performance_summary.csv) | [Clinical associations](results/mortality_associations.csv) | [Full tree](results/full_synthetic_tree.nwk) | [R validation](provenance/R_validation.json)',
 '## References',
 '1. NICD. Centre for Healthcare-Associated Infections, Antimicrobial Resistance and Mycoses. https://www.nicd.ac.za/centres/centre-for-healthcare-associated-infections-antimicrobial-resistance-and-mycoses/',
 '2. NCBI. AMRFinderPlus and Reference Gene Database. https://www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/AMRFinder/',
 '3. Minh BQ et al. IQ-TREE 2. Molecular Biology and Evolution. 2020;37:1530-1534. https://doi.org/10.1093/molbev/msaa015',
-'4. Core/Whole Genome Multilocus Sequence Typing and Core Genome SNP-Based Typing of OXA-48-Producing Klebsiella pneumoniae Clinical Isolates From Spain. Front Microbiol. 2019;10:2961. https://doi.org/10.3389/fmicb.2019.02961'
+'4. Core/Whole Genome Multilocus Sequence Typing and Core Genome SNP-Based Typing of OXA-48-Producing Klebsiella pneumoniae Clinical Isolates From Spain. Front Microbiol. 2019;10:2961. https://doi.org/10.3389/fmicb.2019.02961',
+'5. Snitkin ES et al. Tracking a hospital outbreak of carbapenem-resistant Klebsiella pneumoniae with whole-genome sequencing. Sci Transl Med. 2012;4:148ra116. https://doi.org/10.1126/scitranslmed.3004129',
+'6. PubMLST Klebsiella pneumoniae sequence definitions. https://pubmlst.org/organisms/klebsiella-pneumoniae | Pinned allele mirror: https://github.com/tseemann/mlst/tree/dd2ae883f721b9049fbbe4ab92e2db1ba9c100ed/db/pubmlst/klebsiella'
 )
 join_body<-function(x)gsub('(\\|)\n\n(\\|)','\\1\n\\2',paste(x,collapse='\n\n'))
-writeLines(join_body(body),'README.md',useBytes=TRUE)
+nav<-'[Public genome results](#public-genome-case-study-and-publication-concordance) | [Reproducibility](#reproducibility) | [Word report](report/Hospital_AMR_Report.docx)'
+writeLines(join_body(c(body[1:2],nav,body[-c(1,2)])),'README.md',useBytes=TRUE)
 report<-body[-c(1,2)];report<-gsub('](figures/','](../figures/',report,fixed=TRUE)
+report<-gsub('](case_study/figures/','](../case_study/figures/',report,fixed=TRUE)
 for(folder in c('report','results','provenance'))report<-gsub(paste0('](',folder,'/'),paste0('](https://github.com/Vusumuzi2Mabasa/Hospital-AMR-Genomic-Surveillance/blob/main/',folder,'/'),report,fixed=TRUE)
-writeLines(c('---','title: "Hospital genomic surveillance under incomplete sampling and uncertain sequence quality"','author: "Vusumuzi Mabasa"','subtitle: "An independent fully synthetic research demonstration"','date: "2026-11-22"','format:','  docx:','    reference-doc: reference.docx','---','',join_body(report)),'report/Hospital_AMR_Report.qmd',useBytes=TRUE)
+report<-gsub('](case_study/','](https://github.com/Vusumuzi2Mabasa/Hospital-AMR-Genomic-Surveillance/blob/main/case_study/',report,fixed=TRUE)
+writeLines(c('---','title: "Hospital genomic surveillance with simulation and public Klebsiella genome validation"','author: "Vusumuzi Mabasa"','subtitle: "Simulation experiments and an independent public bacterial genome case study"','date: "2026-11-22"','format:','  docx:','    reference-doc: reference.docx','---','',join_body(report)),'report/Hospital_AMR_Report.qmd',useBytes=TRUE)

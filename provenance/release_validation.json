@@ -1,11 +1,14 @@
 {
   "passed": true,
-  "nextflow_completed_tasks": 42,
-  "figures": 8,
-  "word_pages": 10,
+  "preserved_synthetic_Nextflow_tasks": 42,
+  "public_genome_Nextflow_tasks": 15,
+  "figures": 12,
+  "word_pages": 16,
   "all_pages_visually_reviewed": true,
-  "word_sha256": "4044e278f69489c10b3ff1ed57ec548542787c6aa1f3fb1d29030c3a856e32b4",
+  "word_sha256": "e487a4afc6561a4f7843dcf2f63bf583fdc2ec67be7b70babf96eee11db76afc",
   "credential_pattern_scan": "passed",
-  "clinical_data": "none; fully synthetic fixtures and metadata",
-  "scope": "Local release audit; GitHub Actions status is separate"
+  "data_scope": "Preserved synthetic experiments and twelve accession-locked public bacterial genome assemblies",
+  "publication_concordance": "12/12 ST258; 12/12 blaKPC-3; exact 41-site reproduction not claimed",
+  "public_reanalysis_audit": "case_study/provenance/case_validation.json",
+  "scope": "Local combined release audit; GitHub Actions is a separate check"
 }

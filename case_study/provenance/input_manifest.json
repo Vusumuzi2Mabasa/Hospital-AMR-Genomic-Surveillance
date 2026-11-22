@@ -1,0 +1,216 @@
+{
+  "publication": "10.1126/scitranslmed.3004129",
+  "assemblies": [
+    {
+      "sample": "KPNIH1",
+      "accession": "GCA_000281535.2",
+      "biosample": "SAMN01057611",
+      "bioproject": "PRJNA73191",
+      "release_date": "2014-07-02",
+      "assembly_level": "Complete Genome",
+      "assembly_name": "ASM28153v2",
+      "sequencing_technology": "Pacific Biosciences RS II",
+      "archive_species": "Klebsiella pneumoniae subsp. pneumoniae KPNIH1",
+      "ncbi_best_ani_species": "Klebsiella pneumoniae",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000281535.2/download?include_annotation_type=GENOME_FASTA",
+      "sha256": "3ca7f38ddedd9650a5793101b26478451561769c22edeeaebff01b5506cf83ec"
+    },
+    {
+      "sample": "KPNIH2",
+      "accession": "GCA_000281255.1",
+      "biosample": "SAMN01057609",
+      "bioproject": "PRJNA73195",
+      "release_date": "2012-07-24",
+      "assembly_level": "Contig",
+      "assembly_name": "KPNIH2_1",
+      "sequencing_technology": "454 GS FLX",
+      "archive_species": "Klebsiella pneumoniae subsp. pneumoniae KPNIH2",
+      "ncbi_best_ani_species": "Klebsiella pneumoniae",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000281255.1/download?include_annotation_type=GENOME_FASTA",
+      "sha256": "cca20f2c29c3a0e3bb17c5677eeaa8fe8854f0221ec87d6cb22e433e430b6e3b"
+    },
+    {
+      "sample": "KPNIH4",
+      "accession": "GCA_000281395.1",
+      "biosample": "SAMN01057606",
+      "bioproject": "PRJNA73199",
+      "release_date": "2012-07-24",
+      "assembly_level": "Contig",
+      "assembly_name": "KPNIH4_1",
+      "sequencing_technology": "454 GS FLX",
+      "archive_species": "Klebsiella pneumoniae subsp. pneumoniae KPNIH4",
+      "ncbi_best_ani_species": "Klebsiella pneumoniae",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000281395.1/download?include_annotation_type=GENOME_FASTA",
+      "sha256": "a41c414df1d0729b3d48bc0876d6a6ec32a8f769f5de4c28834a17154bdec2a7"
+    },
+    {
+      "sample": "KPNIH5",
+      "accession": "GCA_000281275.1",
+      "biosample": "SAMN01057607",
+      "bioproject": "PRJNA73201",
+      "release_date": "2012-07-24",
+      "assembly_level": "Contig",
+      "assembly_name": "KPNIH5_1",
+      "sequencing_technology": "454 GS FLX",
+      "archive_species": "Klebsiella pneumoniae subsp. pneumoniae KPNIH5",
+      "ncbi_best_ani_species": "Klebsiella pneumoniae",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000281275.1/download?include_annotation_type=GENOME_FASTA",
+      "sha256": "a6e5dabe7c08e78dd79935c3d40e83e85934c649e55d4281d1fb1b7ae6f072dc"
+    },
+    {
+      "sample": "KPNIH6",
+      "accession": "GCA_000281295.1",
+      "biosample": "SAMN01057608",
+      "bioproject": "PRJNA73203",
+      "release_date": "2012-07-24",
+      "assembly_level": "Contig",
+      "assembly_name": "KPNIH6_1",
+      "sequencing_technology": "454 GS FLX",
+      "archive_species": "Klebsiella pneumoniae subsp. pneumoniae KPNIH6",
+      "ncbi_best_ani_species": "Klebsiella pneumoniae",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000281295.1/download?include_annotation_type=GENOME_FASTA",
+      "sha256": "89c1518fe08f9778d550615b1c1e9447b385b892cfdc37e9f0aad4dd4166b011"
+    },
+    {
+      "sample": "KPNIH7",
+      "accession": "GCA_000281415.1",
+      "biosample": "SAMN01057711",
+      "bioproject": "PRJNA73837",
+      "release_date": "2012-07-24",
+      "assembly_level": "Contig",
+      "assembly_name": "KPNIH7_1",
+      "sequencing_technology": "454 GS FLX",
+      "archive_species": "Klebsiella pneumoniae subsp. pneumoniae KPNIH7",
+      "ncbi_best_ani_species": "Klebsiella pneumoniae",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000281415.1/download?include_annotation_type=GENOME_FASTA",
+      "sha256": "cacafbc063d1dbcd8d3a65303080c1e9d4fb2048b9fe40d4e9d7e45b454f4a7a"
+    },
+    {
+      "sample": "KPNIH8",
+      "accession": "GCA_000281555.1",
+      "biosample": "SAMN01057612",
+      "bioproject": "PRJNA73839",
+      "release_date": "2012-07-24",
+      "assembly_level": "Contig",
+      "assembly_name": "KPNIH8_1",
+      "sequencing_technology": "454 GS FLX",
+      "archive_species": "Klebsiella pneumoniae subsp. pneumoniae KPNIH8",
+      "ncbi_best_ani_species": "Klebsiella pneumoniae",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000281555.1/download?include_annotation_type=GENOME_FASTA",
+      "sha256": "155807aaa5e7807d70a24c613c48a56d0367e52cee36fc2e20de296217ccb348"
+    },
+    {
+      "sample": "KPNIH9",
+      "accession": "GCA_000281315.1",
+      "biosample": "SAMN01057613",
+      "bioproject": "PRJNA73841",
+      "release_date": "2012-07-24",
+      "assembly_level": "Contig",
+      "assembly_name": "KPNIH9_1",
+      "sequencing_technology": "454 GS FLX",
+      "archive_species": "Klebsiella pneumoniae subsp. pneumoniae KPNIH9",
+      "ncbi_best_ani_species": "Klebsiella pneumoniae",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000281315.1/download?include_annotation_type=GENOME_FASTA",
+      "sha256": "1e57257de46572948c210d6b2c628a4fa2396b47bec40bccfa503bf1ae333381"
+    },
+    {
+      "sample": "KPNIH10",
+      "accession": "GCA_000281435.2",
+      "biosample": "SAMN01057614",
+      "bioproject": "PRJNA73843",
+      "release_date": "2014-05-27",
+      "assembly_level": "Complete Genome",
+      "assembly_name": "ASM28143v2",
+      "sequencing_technology": "Pacific Biosciences RS II",
+      "archive_species": "Klebsiella pneumoniae subsp. pneumoniae KPNIH10",
+      "ncbi_best_ani_species": "Klebsiella pneumoniae",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000281435.2/download?include_annotation_type=GENOME_FASTA",
+      "sha256": "d0193197efef1542a75af0911b1c79b40ec280ba4c3caa7de65596fd0093975e"
+    },
+    {
+      "sample": "KPNIH11",
+      "accession": "GCA_000281575.1",
+      "biosample": "SAMN01057620",
+      "bioproject": "PRJNA73845",
+      "release_date": "2012-07-24",
+      "assembly_level": "Contig",
+      "assembly_name": "KPNIH11_1",
+      "sequencing_technology": "454 GS FLX",
+      "archive_species": "Klebsiella pneumoniae subsp. pneumoniae KPNIH11",
+      "ncbi_best_ani_species": "Klebsiella pneumoniae",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000281575.1/download?include_annotation_type=GENOME_FASTA",
+      "sha256": "8f655d85da44ff1bd1bdff4ebd737a6afe333c801c43d3d104c29dc3687449a7"
+    },
+    {
+      "sample": "KPNIH12",
+      "accession": "GCA_000281335.1",
+      "biosample": "SAMN01057621",
+      "bioproject": "PRJNA80219",
+      "release_date": "2012-07-24",
+      "assembly_level": "Contig",
+      "assembly_name": "KPNIH12_1",
+      "sequencing_technology": "454 GS FLX",
+      "archive_species": "Klebsiella pneumoniae subsp. pneumoniae KPNIH12",
+      "ncbi_best_ani_species": "Klebsiella pneumoniae",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000281335.1/download?include_annotation_type=GENOME_FASTA",
+      "sha256": "6c497aae010f8fb96eebd8585d89803c8057bc5ae17373b2370d3f1d2adea710"
+    },
+    {
+      "sample": "KPNIH14",
+      "accession": "GCA_000281455.1",
+      "biosample": "SAMN01057640",
+      "bioproject": "PRJNA80223",
+      "release_date": "2012-07-24",
+      "assembly_level": "Contig",
+      "assembly_name": "KPNIH14_1",
+      "sequencing_technology": "454 GS FLX",
+      "archive_species": "Klebsiella pneumoniae subsp. pneumoniae KPNIH14",
+      "ncbi_best_ani_species": "Klebsiella pneumoniae",
+      "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000281455.1/download?include_annotation_type=GENOME_FASTA",
+      "sha256": "d5cdc6898b49777c90393f1d7dbcd2e77bbb2f144fae6723c3c7ef0d22dfc5e7"
+    }
+  ],
+  "references": [
+    {
+      "name": "gapA.tfa",
+      "url": "https://raw.githubusercontent.com/tseemann/mlst/dd2ae883f721b9049fbbe4ab92e2db1ba9c100ed/db/pubmlst/klebsiella/gapA.tfa",
+      "sha256": "fa67f73aff9d087fa37a238450705db3cc8eda31d94acd22477a1509a51cf3fc"
+    },
+    {
+      "name": "infB.tfa",
+      "url": "https://raw.githubusercontent.com/tseemann/mlst/dd2ae883f721b9049fbbe4ab92e2db1ba9c100ed/db/pubmlst/klebsiella/infB.tfa",
+      "sha256": "2b93636b3a6361703361ada24630c50cf121a4de42760169b1c9b45025c8cc81"
+    },
+    {
+      "name": "mdh.tfa",
+      "url": "https://raw.githubusercontent.com/tseemann/mlst/dd2ae883f721b9049fbbe4ab92e2db1ba9c100ed/db/pubmlst/klebsiella/mdh.tfa",
+      "sha256": "4effbc0f4e48625ecb0944c85843d015438120f2c41756078a6dccaca084dcb7"
+    },
+    {
+      "name": "pgi.tfa",
+      "url": "https://raw.githubusercontent.com/tseemann/mlst/dd2ae883f721b9049fbbe4ab92e2db1ba9c100ed/db/pubmlst/klebsiella/pgi.tfa",
+      "sha256": "a6a21f2c17e0fa58bca9b088478de7b96377fb256f7fa5b88336a8a339a05051"
+    },
+    {
+      "name": "phoE.tfa",
+      "url": "https://raw.githubusercontent.com/tseemann/mlst/dd2ae883f721b9049fbbe4ab92e2db1ba9c100ed/db/pubmlst/klebsiella/phoE.tfa",
+      "sha256": "bb7b973daf660a48b41c3e9b55c04466c18cc3b642077000ab1a6634bc6eb787"
+    },
+    {
+      "name": "rpoB.tfa",
+      "url": "https://raw.githubusercontent.com/tseemann/mlst/dd2ae883f721b9049fbbe4ab92e2db1ba9c100ed/db/pubmlst/klebsiella/rpoB.tfa",
+      "sha256": "735f83a8fd4edf5f646c74d9ce65bf1033841794af4d3c7ff61939feadcb770a"
+    },
+    {
+      "name": "tonB.tfa",
+      "url": "https://raw.githubusercontent.com/tseemann/mlst/dd2ae883f721b9049fbbe4ab92e2db1ba9c100ed/db/pubmlst/klebsiella/tonB.tfa",
+      "sha256": "afcf3b4d824de7fd2fe9c7b472658fecac117b7913c3c64ee9738d64d86ea3af"
+    },
+    {
+      "name": "klebsiella.txt",
+      "url": "https://raw.githubusercontent.com/tseemann/mlst/dd2ae883f721b9049fbbe4ab92e2db1ba9c100ed/db/pubmlst/klebsiella/klebsiella.txt",
+      "sha256": "3624f7aac31a97ad5f1f009227291d501e9d8f0e8b8686318d7e0f0116a6c234"
+    }
+  ],
+  "selection_frozen_before_analysis": true
+}

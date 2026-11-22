@@ -1,0 +1,13 @@
+sample,expected_ST,observed_ST,ST_concordant,expected_family,observed_KPC,KPC_concordant,scope
+KPNIH1,258,258,True,KPC,blaKPC-3,True,Publication-level lineage and KPC-family expectations; not a transmission validation
+KPNIH2,258,258,True,KPC,blaKPC-3,True,Publication-level lineage and KPC-family expectations; not a transmission validation
+KPNIH4,258,258,True,KPC,blaKPC-3,True,Publication-level lineage and KPC-family expectations; not a transmission validation
+KPNIH5,258,258,True,KPC,blaKPC-3,True,Publication-level lineage and KPC-family expectations; not a transmission validation
+KPNIH6,258,258,True,KPC,blaKPC-3,True,Publication-level lineage and KPC-family expectations; not a transmission validation
+KPNIH7,258,258,True,KPC,blaKPC-3,True,Publication-level lineage and KPC-family expectations; not a transmission validation
+KPNIH8,258,258,True,KPC,blaKPC-3,True,Publication-level lineage and KPC-family expectations; not a transmission validation
+KPNIH9,258,258,True,KPC,blaKPC-3,True,Publication-level lineage and KPC-family expectations; not a transmission validation
+KPNIH10,258,258,True,KPC,blaKPC-3,True,Publication-level lineage and KPC-family expectations; not a transmission validation
+KPNIH11,258,258,True,KPC,blaKPC-3,True,Publication-level lineage and KPC-family expectations; not a transmission validation
+KPNIH12,258,258,True,KPC,blaKPC-3,True,Publication-level lineage and KPC-family expectations; not a transmission validation
+KPNIH14,258,258,True,KPC,blaKPC-3,True,Publication-level lineage and KPC-family expectations; not a transmission validation

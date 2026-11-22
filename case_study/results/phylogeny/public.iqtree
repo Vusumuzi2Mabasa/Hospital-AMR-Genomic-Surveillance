@@ -1,0 +1,181 @@
+IQ-TREE 2.4.0 built Feb 12 2025
+
+Input file name: core_full.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 20261122
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 12 sequences with 5211693 nucleotide sites
+Number of constant sites: 5.21165e+06 (= 99.9992% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 5.21165e+06 (= 99.9992% of all sites)
+Number of parsimony informative sites: 20
+Number of distinct site patterns: 37
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 4.1715
+  A-G: 3.8181
+  A-T: 2.6828
+  C-G: 0.0001
+  C-T: 2.2901
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2119
+  pi(C) = 0.2882
+  pi(G) = 0.288
+  pi(T) = 0.2119
+
+Rate matrix Q:
+
+  A    -1.774    0.7429    0.6796    0.3512
+  C    0.5463   -0.8461  1.78e-05    0.2998
+  G       0.5  1.781e-05   -0.6309    0.1309
+  T    0.3513    0.4078     0.178   -0.9371
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 982.6
+
+ Category  Relative_rate  Proportion
+  1         0.9597         0.25
+  2         0.9894         0.25
+  3         1.01           0.25
+  4         1.041          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7164813.4373 (s.e. 359.8301)
+Unconstrained log-likelihood (without tree): -7164765.4982
+Number of free parameters (#branches + #model parameters): 30
+Akaike information criterion (AIC) score: 14329686.8746
+Corrected Akaike information criterion (AICc) score: 14329686.8749
+Bayesian information criterion (BIC) score: 14330090.8670
+
+Total tree length (sum of branch lengths): 0.0000
+Sum of internal branch lengths: 0.0000 (47.7851% of tree length)
+
+WARNING: 5 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'KPNIH1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++---KPNIH1
+|
+|                                        +---KPNIH2
+|  +-------------------------------------| (100)
+|  |                                     |      +**KPNIH5
+|  |                                     |  +---| (77)
+|  |                                     |  |   +---KPNIH6
+|  |                                     +**| (62)
+|  |                                        +**KPNIH10
++**| (74)
+|  |                               +-----------KPNIH4
+|  |                            +**| (30)
+|  |                            |  |                 +---KPNIH7
+|  |                            |  |              +**| (37)
+|  |                            |  |              |  +**KPNIH8
+|  |                            |  |           +**| (60)
+|  |                            |  |           |  +**KPNIH9
+|  |                            |  +-----------| (96)
+|  |                            |              +---------------KPNIH14
+|  +----------------------------| (100)
+|                               +---------------KPNIH12
+|
++----------------------------KPNIH11
+
+Tree in newick format:
+
+(KPNIH1:0.0000001919,((KPNIH2:0.0000001919,((KPNIH5:0.0000000192,KPNIH6:0.0000001919)77:0.0000001919,KPNIH10:0.0000000192)62:0.0000000192)100:0.0000017269,((KPNIH4:0.0000005756,(((KPNIH7:0.0000001919,KPNIH8:0.0000000192)37:0.0000000192,KPNIH9:0.0000000192)60:0.0000000192,KPNIH14:0.0000007675)96:0.0000005756)30:0.0000000192,KPNIH12:0.0000007675)100:0.0000013431)74:0.0000000192,KPNIH11:0.0000013431);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -7164814.449528349
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++***KPNIH1
+|
+|                                       +***KPNIH2
+|  +************************************| (100)
+|  |                                    |      +**KPNIH5
+|  |                                    |  +***| (77)
+|  |                                    |  |   +***KPNIH6
+|  |                                    +**| (62)
+|  |                                       +**KPNIH10
++**| (74)
+|  |                               +***********KPNIH4
+|  |                            +**| (60)
+|  |                            |  +***************KPNIH12
+|  +****************************| (100)
+|                               |                 +***KPNIH7
+|                               |              +**| (37)
+|                               |              |  +**KPNIH8
+|                               |           +**| (60)
+|                               |           |  +**KPNIH9
+|                               +***********| (96)
+|                                           +***************KPNIH14
+|
++****************************KPNIH11
+
+
+Consensus tree in newick format: 
+
+(KPNIH1:0.0000001919,((KPNIH2:0.0000001919,((KPNIH5:0.0000000408,KPNIH6:0.0000001919)77:0.0000001919,KPNIH10:0.0000000408)62:0.0000000408)100:0.0000017269,((KPNIH4:0.0000005756,KPNIH12:0.0000007675)60:0.0000000408,(((KPNIH7:0.0000001919,KPNIH8:0.0000000408)37:0.0000000408,KPNIH9:0.0000000408)60:0.0000000408,KPNIH14:0.0000007675)96:0.0000005756)100:0.0000013431)74:0.0000000408,KPNIH11:0.0000013431);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t public.treefile -m "GTR{4.1715,3.81814,2.68279,0.0001,2.29009}+F{0.211918,0.288176,0.288045,0.211861}+G4{982.606}" --length 5211693
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s core_full.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s core_full.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Nov 22 20:46:55 2026
+Total CPU time used: 2.56837 seconds (0h:0m:2s)
+Total wall-clock time used: 1.891595259 seconds (0h:0m:1s)
+

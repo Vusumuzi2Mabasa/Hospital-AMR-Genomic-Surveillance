@@ -40,3 +40,30 @@ OUTPUTS
 All sample records and core sequences are artificial. These are not clinical
 performance estimates, actual K. pneumoniae genomes or an institutional study.
 Never replace the toy thresholds with clinical recommendations without validation.
+
+PUBLIC KLEBSIELLA CASE STUDY (ASSEMBLY-BASED REAL DATA)
+The synthetic experiment above is preserved. This separate analysis uses twelve
+public NIH outbreak assemblies; it does not perform raw-read QC or reassembly.
+
+  cd /mnt/d/Hospital-AMR-Genomic-Surveillance
+  conda env create -f case_study/environment.yml
+  conda activate public-klebsiella-case
+  python3 case_study/scripts/fetch_inputs.py --amr
+  amrfinder_index case_study/cache/amrfinder/2026-08-07.1
+  python3 case_study/scripts/test_assembly_analysis.py -v
+  nextflow -C case_study/nextflow.config run case_study/main.nf -resume
+  Rscript --vanilla case_study/analyse.R
+  python3 case_study/scripts/audit.py
+  Rscript --vanilla scripts/build_report.R
+  Rscript --vanilla scripts/render_report.R
+
+An existing verified AMRFinder database can be passed with --amr_db /path/to/db.
+The locked database source download is approximately 124 MB before indexing.
+The public archive genomes remain in ignored cache directories; accessions,
+checksums, results, source code and figures are committed to GitHub.
+The input manifest pins NCBI accession versions and the MLST reference commit.
+Case results: case_study/results/
+Figures: case_study/figures/
+Validation: case_study/provenance/case_validation.json
+Original Word report: report/archive/Hospital_AMR_Simulation_Baseline.docx
+The original simulated results do not require rerunning to reproduce the case.

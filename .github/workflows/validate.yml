@@ -5,6 +5,14 @@ on:
 permissions:
   contents: read
 jobs:
+  public-case-tests:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test assembly consensus and typing rules
+        run: python3 case_study/scripts/test_assembly_analysis.py -v
+      - name: Audit committed public-case evidence
+        run: python3 case_study/scripts/audit.py --ci
   sequencing:
     runs-on: ubuntu-24.04
     timeout-minutes: 30

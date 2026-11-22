@@ -1,0 +1,13 @@
+Python 3.15.2
+2.28-r1209
+blastn: 2.17.0+
+ Package: blast 2.17.0, build Aug 22 2026 11:52:50
+4.2.7
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb 12 2025
+
+      N E X T F L O W
+      version 25.10.2 build 10555
+      created 28-11-2025 19:24 UTC (21:24 SAST)
+      cite doi:10.1038/nbt.3820
+      http://nextflow.io
+

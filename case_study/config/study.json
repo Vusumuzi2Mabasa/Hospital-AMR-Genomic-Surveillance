@@ -1,0 +1,19 @@
+{
+  "study": "NIH Clinical Center Klebsiella outbreak 2011",
+  "publication_doi": "10.1126/scitranslmed.3004129",
+  "publication_pmcid": "PMC3521604",
+  "bioproject": "PRJNA188534",
+  "samples": ["KPNIH1", "KPNIH2", "KPNIH4", "KPNIH5", "KPNIH6", "KPNIH7", "KPNIH8", "KPNIH9", "KPNIH10", "KPNIH11", "KPNIH12", "KPNIH14"],
+  "selection": "Twelve lowest-numbered available KPNIH1-18 assemblies in the NCBI metadata snapshot, selected before analysis; KPNIH3 was absent from that snapshot",
+  "reference_sample": "KPNIH1",
+  "expected_sequence_type": "258",
+  "expected_carbapenemase_family": "KPC",
+  "mlst_snapshot": "dd2ae883f721b9049fbbe4ab92e2db1ba9c100ed",
+  "amrfinder_database": "2026-08-07.1",
+  "min_mapping_quality": 30,
+  "indel_mask_flank": 5,
+  "repeat_min_length": 100,
+  "repeat_min_identity": 95,
+  "minimum_callable_fraction": 0.9,
+  "interpretation": "Assembly-based independent reanalysis; no raw-read QC, de novo assembly or patient transmission reconstruction is claimed"
+}

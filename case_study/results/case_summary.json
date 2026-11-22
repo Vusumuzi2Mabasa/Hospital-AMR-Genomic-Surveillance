@@ -1,0 +1,18 @@
+{
+  "samples": 12,
+  "QC_passing": 12,
+  "reference_chromosome_bases": 5394056,
+  "repeat_masked_bases": 102870,
+  "common_callable_bases": 5211693,
+  "common_callable_fraction": 0.9661918600770922,
+  "variable_sites": 42,
+  "pairwise_min": 0,
+  "pairwise_max": 25,
+  "ST_concordant": 12,
+  "KPC_concordant": 12,
+  "published_full_cohort_variable_sites": 41,
+  "published_cohort_size": 18,
+  "exact_41_site_reproduction_claimed": false,
+  "method": "Strict common reference-projected chromosome; MQ>=30; duplicates, indel flanks and self-BLAST repeats masked; no recombination inference",
+  "passed_computational_checks": true
+}

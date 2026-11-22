@@ -1,0 +1,378 @@
+[
+  {
+    "path": "results/candidate_cluster_membership.csv",
+    "sha256": "bb7ce0bde3f460c01efe614b5ef3619f62db4f26ed38b30a43c429e1f2352343"
+  },
+  {
+    "path": "results/display_synthetic_tree.nwk",
+    "sha256": "ad36a98ea754ab5db04cc0cab5b579d34aebc5e6b4ba9546fce245a481924561"
+  },
+  {
+    "path": "results/example_statistics.json",
+    "sha256": "23eb860340e7189d27b998374af33da1f292d8156e14682b1a1f4d394bf0c19b"
+  },
+  {
+    "path": "results/full_synthetic_tree.nwk",
+    "sha256": "cd4e2cae12dd9838809a8c047bf4ad1e805e713634b73adc264abbaecb03df69"
+  },
+  {
+    "path": "results/genotype_phenotype_counts.csv",
+    "sha256": "e92af7a0e54a55876636a6b46ee88ac556ec7025141d40a41313a30cd57001f1"
+  },
+  {
+    "path": "results/monthly_counts.csv",
+    "sha256": "f74778d581eaac442f083cfadd82cc6e359fcaeabda163e0792604e0c60d1b53"
+  },
+  {
+    "path": "results/mortality_associations.csv",
+    "sha256": "0af519c3b9b7356782a89d9bcfae929a32d9dfa9b9a1d895722f79127a37d703"
+  },
+  {
+    "path": "results/paired_method_differences.csv",
+    "sha256": "981afcbdd88357804b19632886182baa902a2ea42001ea1842ea41796ef02bbb"
+  },
+  {
+    "path": "results/paired_method_summary.csv",
+    "sha256": "fe544636c37120dee8c9f06f9b3eb5580489cf6ebfd8a825209079d11f9e6163"
+  },
+  {
+    "path": "results/performance_summary.csv",
+    "sha256": "32e2071f19a4b112faa5c4018f0e3a5e3fe9949b3014ed2d907ec10ec8e69642"
+  },
+  {
+    "path": "results/replicate_metrics.csv",
+    "sha256": "a82a8347d50a5c01f7561509d81059dd476c28690fb723bd81863065dc7f41b7"
+  },
+  {
+    "path": "results/resistance_proportions.csv",
+    "sha256": "c7a264ffa94241d4d9ec7665656a7a48e71a9797d89b935f219546081708f86d"
+  },
+  {
+    "path": "results/simulation.rds",
+    "sha256": "edb3a8608d7540880ad39022bcca1b6c441eba1ba411e989a72c28e617f9d4c6"
+  },
+  {
+    "path": "results/wgs/assembly_amr_checks.csv",
+    "sha256": "713069d64b6c49b9097735f646802bed272d5581b184e4839835741d3ddd0e89"
+  },
+  {
+    "path": "results/wgs/local_tool_versions.txt",
+    "sha256": "b99f74b4efdcdb08e2d954586c9185f7ac923acde18a069c14f8d18bbc9af437"
+  },
+  {
+    "path": "results/wgs/nextflow_execution.html",
+    "sha256": "085cdd0ebb0a675161a31e0f12adc316997db5b672e4065d68ed069b41736f8e"
+  },
+  {
+    "path": "results/wgs/nextflow_timeline.html",
+    "sha256": "9cbcdeded0377fb61b7ebff72f7654739223d455f732a227bd49cab224b5c75b"
+  },
+  {
+    "path": "results/wgs/nextflow_trace.tsv",
+    "sha256": "16b9b0da1762fdbe68fa2dba2a849231a50c839da9ca68ba45fcf78595236a18"
+  },
+  {
+    "path": "results/wgs/nextflow_version.txt",
+    "sha256": "bd50ac7bdb29e312be9342c3c0db43998c5936a15ce70038f6ed6f63b4922a63"
+  },
+  {
+    "path": "results/wgs/observed_pair_distances.csv",
+    "sha256": "330d750c4267b3b7cd68302bcdc3d2e3ead7eb5632125b8eb895d9e67b0993b4"
+  },
+  {
+    "path": "results/wgs/qc_passing_alignment.fasta",
+    "sha256": "faa1c79ce07930bbf8ef74a1e8e88210e2642b6fd793bf75a005c41b280c5011"
+  },
+  {
+    "path": "results/wgs/wgs_qc.csv",
+    "sha256": "5280ae87302d213ccb55854aa78b74036bf6f00f61ddc184810f287c54f4ff6d"
+  },
+  {
+    "path": "results/wgs/wgs_validation.json",
+    "sha256": "870491903f9fa5c63ebc29e4ba7beffa9ce0c6088f4bb56fb4dc0efdef51098d"
+  },
+  {
+    "path": "results/wgs/assembly/WGS01.blast.tsv",
+    "sha256": "9c350f0fd1fca6195d1d1b5741afecece8bd9f756e6bf46f0dd1c5ef5fac58d7"
+  },
+  {
+    "path": "results/wgs/assembly/WGS04.blast.tsv",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "results/wgs/assembly/WGS05.blast.tsv",
+    "sha256": "a82fbe82056292ab48ee94a38087631a5d480931ec6617ef4ee865c341e3dd75"
+  },
+  {
+    "path": "results/wgs/assembly/WGS08.blast.tsv",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "results/wgs/consensus/WGS01.core.fasta",
+    "sha256": "36e9058f6dd4cf881cf7c4fdcd0a76658e48d9225534f758f305e9b727c8a0c2"
+  },
+  {
+    "path": "results/wgs/consensus/WGS02.core.fasta",
+    "sha256": "7703d853a747520ac2db80054b131c7fed11cf9557f010f5ddfb4d3ff325b22a"
+  },
+  {
+    "path": "results/wgs/consensus/WGS03.core.fasta",
+    "sha256": "78c7cd2b816b0f2626f692df66101318ee08e3988effaf55b7bd7aa8fbde5ac0"
+  },
+  {
+    "path": "results/wgs/consensus/WGS04.core.fasta",
+    "sha256": "a0dde867d46650a3a8feca88b174c2a51a71af0ce16cdb3dc8ec5a6332325f05"
+  },
+  {
+    "path": "results/wgs/consensus/WGS05.core.fasta",
+    "sha256": "8ef063aa6c5326d97653a518909c069d5e691ef3456e59619f28e833edf7200f"
+  },
+  {
+    "path": "results/wgs/consensus/WGS06.core.fasta",
+    "sha256": "f6f46cb4d48ebab46e78e0aff6081343fccb35d97bd66df04b77d2fbb9c20615"
+  },
+  {
+    "path": "results/wgs/consensus/WGS07.core.fasta",
+    "sha256": "e29733058e086e2b775fed2279d273998cbfd09ab69a7a4ec9ec14cd3ee4463f"
+  },
+  {
+    "path": "results/wgs/consensus/WGS08.core.fasta",
+    "sha256": "1080e28939999de204aa62191f53925518c5c2842cd70a94fb45d86dfe804ace"
+  },
+  {
+    "path": "results/wgs/consensus/WGS09.core.fasta",
+    "sha256": "58544ab6ed29b8a206a4c8913f945c308ced17ac1b581b283fe079dc3e372ae0"
+  },
+  {
+    "path": "results/wgs/consensus/WGS10.core.fasta",
+    "sha256": "e220e8a726fbeb803e4eef39a5b4be785fc5a02b598151809f7606ebe63d15cc"
+  },
+  {
+    "path": "results/wgs/consensus/WGS11.core.fasta",
+    "sha256": "8b4b1bf263120b9224a84457368b8d3442179bfe3b8047eb178bb1efdbab5e54"
+  },
+  {
+    "path": "results/wgs/consensus/WGS12.core.fasta",
+    "sha256": "55fbd983bc610bd81402584e6b64eb385be662990f4f743e7abb2edccadb5b32"
+  },
+  {
+    "path": "results/wgs/fastp/WGS01.fastp.json",
+    "sha256": "0dae6961214e923f74eb329f6401fe872cb7dfb18e1e8e93b9c7f53e085e5ae4"
+  },
+  {
+    "path": "results/wgs/fastp/WGS02.fastp.json",
+    "sha256": "926754e733e5eda9d69f0e7dd611b82ca5707b8f5af43c58aa6d73a053227972"
+  },
+  {
+    "path": "results/wgs/fastp/WGS03.fastp.json",
+    "sha256": "349539c1bee3627a761e305b51fdf8320bf8be88c8f785e657022df392fffcb6"
+  },
+  {
+    "path": "results/wgs/fastp/WGS04.fastp.json",
+    "sha256": "49843a95958dccfa5ced81d9bdef32fad60ef990a1559ceceed320e935995da9"
+  },
+  {
+    "path": "results/wgs/fastp/WGS05.fastp.json",
+    "sha256": "24859ba72438da24e70326a93828505cae0214e17912886456f0e59782320692"
+  },
+  {
+    "path": "results/wgs/fastp/WGS06.fastp.json",
+    "sha256": "7461360d5838f675c46356ea8425cc174d0a6f5e7718e5b4d01e9cce9930d8c0"
+  },
+  {
+    "path": "results/wgs/fastp/WGS07.fastp.json",
+    "sha256": "70ce94386063b3c73392e5be3b1145257eae53a7b46805b95e25fd2a6b96f250"
+  },
+  {
+    "path": "results/wgs/fastp/WGS08.fastp.json",
+    "sha256": "01731b5b3ba35bea3685057707d1c07838b718ef01a542e91bdefff72298fd2f"
+  },
+  {
+    "path": "results/wgs/fastp/WGS09.fastp.json",
+    "sha256": "74290391d8638355e187da0d1c50234bd747b6ba686711961e8405597104a7b1"
+  },
+  {
+    "path": "results/wgs/fastp/WGS10.fastp.json",
+    "sha256": "3f26cd9e1f6bdf93834746cf44670a5144cc597902cd847258831f9e664f3fda"
+  },
+  {
+    "path": "results/wgs/fastp/WGS11.fastp.json",
+    "sha256": "c5be0d316fa4896cb6a2f54d9d9fb0458967f26a992d64addaf4cb57d6a66d44"
+  },
+  {
+    "path": "results/wgs/fastp/WGS12.fastp.json",
+    "sha256": "20396893bb4f87a9763fd94f95c42ea8f13a3f120e7037bfce68137aeaa9bcf5"
+  },
+  {
+    "path": "results/wgs/phylogeny/observed.bionj",
+    "sha256": "a0e68dbb1bbb9a327984c4e19b4b24b80347ec24a0d193678be406bce3b225bf"
+  },
+  {
+    "path": "results/wgs/phylogeny/observed.ckp.gz",
+    "sha256": "c75cdf662ab0d3b2ef3cc9dd4b4f263340f5fb8db95f64db07bf698923533546"
+  },
+  {
+    "path": "results/wgs/phylogeny/observed.contree",
+    "sha256": "855915a4e2057786ed0420de93912259933fde7625ac600e97b5a75a553c5ff6"
+  },
+  {
+    "path": "results/wgs/phylogeny/observed.iqtree",
+    "sha256": "67271f41383bec6f4b2ced71bb04530beda0827e16bf19da603ba5458c7156c5"
+  },
+  {
+    "path": "results/wgs/phylogeny/observed.log",
+    "sha256": "a3ec8c2dea0d63ed78dcb8459bf49bd276956b919d1ba5b6a6c52b34d4775f1d"
+  },
+  {
+    "path": "results/wgs/phylogeny/observed.mldist",
+    "sha256": "320b0e742344f50c68f3fc789f867b278ed2d5cdd7e5215366a092175f012bc2"
+  },
+  {
+    "path": "results/wgs/phylogeny/observed.splits.nex",
+    "sha256": "5dda951ad7b44a3975c6a13af7184074521edd82029304d216be7429bd68cab9"
+  },
+  {
+    "path": "results/wgs/phylogeny/observed.treefile",
+    "sha256": "be924a4f9e6e5be594e6c70f4702faa83666c6273f49dd8d4c1f5b289eb36770"
+  },
+  {
+    "path": "figures/link_accuracy.pdf",
+    "sha256": "6862e9c19ac3dde6c2ce0b7256d9e45d495e192151548163375fccb7a48e654c"
+  },
+  {
+    "path": "figures/link_accuracy.png",
+    "sha256": "f369e9436238075538ab78f0b3eaa7962351a2943169d18b9d5883bfd29983fa"
+  },
+  {
+    "path": "figures/observed_phylogeny.pdf",
+    "sha256": "1269d1a7b3c8023abb3afdecefad60feeae45a9c153e8ed74ca331a53eba18eb"
+  },
+  {
+    "path": "figures/observed_phylogeny.png",
+    "sha256": "04043a1b3016e5b55b2f025c3be4fa296123ec47364fe04b306d99285b2113da"
+  },
+  {
+    "path": "figures/paired_comparison.pdf",
+    "sha256": "d50e4a3818103ffcf2abc3217c13b026b7545083b82e7a9357df3776c4906e1e"
+  },
+  {
+    "path": "figures/paired_comparison.png",
+    "sha256": "db594dcbc2cbbdd23f97ebbec80ce2a40d28233d40cdac353fe056e312dcfb33"
+  },
+  {
+    "path": "figures/resistance_proportions.pdf",
+    "sha256": "4a87235a5df0ecbd15aefb1d086bf4c3a806b9f13f35b63fad2c08cb2b71ca67"
+  },
+  {
+    "path": "figures/resistance_proportions.png",
+    "sha256": "9d87073484d738cb7031be930dda2441152a25d1d796a97ddaf2dc2ccadcb0b3"
+  },
+  {
+    "path": "figures/snp_heatmap.pdf",
+    "sha256": "5b24f2453e1fcdad4d5acf3a01d0c79421a6683491baf9428903e7541829ae1d"
+  },
+  {
+    "path": "figures/snp_heatmap.png",
+    "sha256": "4771dfc4b9e50a7bc343f5b1b6413c76892ba411b6579a78897aeccf06864077"
+  },
+  {
+    "path": "figures/surveillance_timeline.pdf",
+    "sha256": "c8481db0ec59bd6c7ab068074805a8b2727b16fe8c425fe0f15f3844ff212143"
+  },
+  {
+    "path": "figures/surveillance_timeline.png",
+    "sha256": "25fcd3ba1713008ceb2f792384bb16021824b1655f380fb2665c538441c9b2bd"
+  },
+  {
+    "path": "figures/synthetic_phylogeny.pdf",
+    "sha256": "98a39249bf6ff67174413964af10e58c548eaf65aaef495cf28758aec68a6320"
+  },
+  {
+    "path": "figures/synthetic_phylogeny.png",
+    "sha256": "a46f7cf53dcfd98fab2393154653fb01c5767ea35608dedc6fefbfd6c9a316e2"
+  },
+  {
+    "path": "figures/threshold_sensitivity.pdf",
+    "sha256": "05ea82fcecfc5fee128f83ea8437081bb6cd60340498e3e2ae557dcfa1388802"
+  },
+  {
+    "path": "figures/threshold_sensitivity.png",
+    "sha256": "6a0cfe8959f809b1eebb5f3d40b16e466304a76af24db40cb5954f4203d8f2ac"
+  },
+  {
+    "path": "data/synthetic_isolates.csv",
+    "sha256": "781913383d03364ea548c4dcbd28b4db5d4473b9a87902f59ed6f9f5a26144b2"
+  },
+  {
+    "path": "data/true_snp_distances.csv",
+    "sha256": "30576f3ab63a9e325e6c3705492dc5da93cbdae172fbef465a5849e961038d49"
+  },
+  {
+    "path": "data/wgs_samples.tsv",
+    "sha256": "8d772afb40f705dd38732c7e4412eafbd5b3bce3c1b5a73f44a6d5f383040850"
+  },
+  {
+    "path": "data/wgs_true_alignment.fasta",
+    "sha256": "eb66c303685835a04011c208538e7002f937db1bfd0d6786d20de4cf58a53e7f"
+  },
+  {
+    "path": "data/wgs_truth.json",
+    "sha256": "b45967b3ee855d9abc803b93e81645fe1cb0bd9ff7cc7198818458bfd7eae740"
+  },
+  {
+    "path": "data/reference/amr_targets.fasta",
+    "sha256": "be1643ab646fafd9c5c3e2c7e4723dce0b40115c911c3e394c00b4b3a45ec300"
+  },
+  {
+    "path": "data/reference/synthetic_core.fasta",
+    "sha256": "35f75299cad9a88e67c53090c893058c81b6a9fa01cd021e7987a23d3bcb6128"
+  },
+  {
+    "path": "data/wgs_truth/WGS01.fasta",
+    "sha256": "f9e343b586e78972edf56da309d446179470a1f5f5f64e924a5e50fa22760bc5"
+  },
+  {
+    "path": "data/wgs_truth/WGS02.fasta",
+    "sha256": "322538d4809119d08ac1e03955a25c6e57d242f0910ed5f7bd56757ba8646de5"
+  },
+  {
+    "path": "data/wgs_truth/WGS03.fasta",
+    "sha256": "39a896472b027e5f295874016b12a14222aeee9feaa09861dd734d4a474e81d6"
+  },
+  {
+    "path": "data/wgs_truth/WGS04.fasta",
+    "sha256": "54130c787197b3a7039012b7b5922884adf29afe7d00f0e7d91b951bffc49f62"
+  },
+  {
+    "path": "data/wgs_truth/WGS05.fasta",
+    "sha256": "5f76aa15c73c8f921b090d8b83a3be310dd77f1fb9b8c05b3f08f83681f21fc1"
+  },
+  {
+    "path": "data/wgs_truth/WGS06.fasta",
+    "sha256": "55e552d49ec27389708d814aa1603be07709dac82ea2709c6bb3b1d1f7a03167"
+  },
+  {
+    "path": "data/wgs_truth/WGS07.fasta",
+    "sha256": "572f7cc45388b75417083087e6e09ace0f7fac06279b067757914de88459a911"
+  },
+  {
+    "path": "data/wgs_truth/WGS08.fasta",
+    "sha256": "ead795cb7826f63360239f9f554358f7aa98d32076130187512da1f3f0a51307"
+  },
+  {
+    "path": "data/wgs_truth/WGS09.fasta",
+    "sha256": "bf4bed3b8d1361d98b735cb82302c920b32470c1ceec46db887ea5c960706976"
+  },
+  {
+    "path": "data/wgs_truth/WGS10.fasta",
+    "sha256": "21bc9368f13bb709ca26e3dee360d3c8e9b853d18dd47adbf15ece1aa19ca52b"
+  },
+  {
+    "path": "data/wgs_truth/WGS11.fasta",
+    "sha256": "953adf586a8198d5e27b08290c536a430f5625b23e509b55f4560728e58496ac"
+  },
+  {
+    "path": "data/wgs_truth/WGS12.fasta",
+    "sha256": "7fd129a14a1784cdd4391768ecd4f5ae2ffe147fd9d416d9f17a03b602db0a7b"
+  }
+]

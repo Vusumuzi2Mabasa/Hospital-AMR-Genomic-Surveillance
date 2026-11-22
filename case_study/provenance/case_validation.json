@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": {
+    "all_prespecified_samples_reported": true,
+    "all_pairwise_distances_recomputed": true,
+    "variant_site_count_recomputed": true,
+    "common_denominator_consistent": true,
+    "prespecified_QC_gate": true,
+    "core_fraction_recomputed": true,
+    "KPC_calls_match_original_AMRFinder_outputs": true,
+    "publication_concordance_recomputed": true,
+    "summary_concordance_matches_table": true,
+    "tree_tips_match_QC_samples": true,
+    "four_case_figures_present": true,
+    "original_simulation_files_unchanged": true,
+    "downloaded_assemblies_match_locked_SHA256": true,
+    "all_15_Nextflow_tasks_successful": true
+  },
+  "mode": "Local complete case-study and preservation audit",
+  "check_count": 14,
+  "publication_concordance_is_not_diagnostic_validation": true
+}
