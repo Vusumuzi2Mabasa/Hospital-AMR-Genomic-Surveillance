@@ -30,6 +30,8 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y fastp bwa samtools bcftools spades ncbi-blast+ iqtree
           command -v iqtree2 || sudo ln -s /usr/bin/iqtree /usr/local/bin/iqtree2
+      - name: Audit committed epidemiological results before regenerating outputs
+        run: python3 tests/test_epidemiology.py
       - name: Record execution environment
         run: |
           mkdir -p results/wgs
