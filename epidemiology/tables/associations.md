@@ -1,0 +1,7 @@
+| **Characteristic** | **OR** | **95% CI** | **p-value** |
+| --- | --- | --- | --- |
+| __AMR gene carriage present vs absent__ | 80.3 | 20.4, 316 | <0.001 |
+| __Hospital__ |  |  |  |
+| Hospital A |  |  |  |
+| Hospital B | 2.41 | 0.66, 8.74 | 0.182 |
+| Hospital C | 0.91 | 0.24, 3.49 | 0.888 |

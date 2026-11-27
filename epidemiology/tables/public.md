@@ -1,0 +1,9 @@
+| Measure | Value |
+| --- | --- |
+| Public outbreak assemblies | 12 |
+| ST258 assignments | 12 |
+| KPC family positive assemblies | 12 |
+| Common callable chromosome bases | 5211693 |
+| Variable common core sites | 42 |
+| Pairwise SNP median | 16.5 |
+| Pairwise SNP range | 0 to 25 |

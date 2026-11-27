@@ -1,0 +1,5 @@
+| Hospital | N | Resistant | Percent resistant (95% CI) |
+| --- | --- | --- | --- |
+| Hospital A | 42 | 16 | 38.1 (25.0, 53.2) |
+| Hospital B | 53 | 30 | 56.6 (43.3, 69.0) |
+| Hospital C | 55 | 13 | 23.6 (14.4, 36.3) |

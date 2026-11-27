@@ -15,7 +15,7 @@ check('only_synthetic_ids',nrow(m)==150&&all(grepl('^SIM[0-9]{3}$',m$isolate)))
 check('150_tip_tree_matches_metadata',setequal(ape::read.tree('results/full_synthetic_tree.nwk')$tip.label,m$isolate))
 check('36_tip_display_subset',length(ape::read.tree('results/display_synthetic_tree.nwk')$tip.label)==36)
 check('sequence_truth_recomputed',all(vapply(1:10,function(i)sum(p$sequences[i,]!=p$sequences[i+1,])==p$distance[i,i+1],logical(1))))
-readme<-paste(readLines('README.md',warn=FALSE),collapse='\n');figs<-regmatches(readme,gregexpr('(case_study/)?figures/[a-z_]+[.]png',readme))[[1]]
-check('README_figures_present',length(figs)>=7&&all(file.exists(figs)))
+readme<-paste(readLines('README.md',warn=FALSE),collapse='\n');figs<-regmatches(readme,gregexpr('(epidemiology/|case_study/)?figures/[a-z_]+[.]png',readme))[[1]]
+check('README_figures_present',length(figs)==jsonlite::read_json('epidemiology/validation.json')$figures&&all(file.exists(figs)))
 jsonlite::write_json(list(passed=TRUE,checks=checks,check_count=length(checks),scope='Committed R simulation metrics; separate Nextflow execution audit in results/wgs/wgs_validation.json'),'provenance/R_validation.json',pretty=TRUE,auto_unbox=TRUE)
 cat(length(checks),'R release audit checks passed.\n')

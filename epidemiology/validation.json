@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "people": 150,
+  "deaths": 21,
+  "resistant_phenotypes": 59,
+  "raw_data_regenerated": false,
+  "resistance_model": {
+    "converged": true,
+    "separation": false,
+    "rank": 4,
+    "influential_above_4n": 11,
+    "all_records_retained": true
+  },
+  "legacy_mortality_OR_reproduced": true,
+  "original_scientific_files_preserved": 136,
+  "tables": 6,
+  "figures": 4,
+  "synthetic_and_public_data_distinguished": true
+}

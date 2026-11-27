@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": {
+    "2400_unique_evaluations": true,
+    "100_replicates_in_each_cell": true,
+    "198_true_pairs_per_population": true,
+    "precision_independently_recomputed": true,
+    "all_population_sensitivity_recomputed": true,
+    "sampled_sensitivity_recomputed": true,
+    "FPR_recomputed": true,
+    "QC_denominators_valid": true,
+    "all_MC_means_and_intervals_recomputed": true,
+    "only_synthetic_ids": true,
+    "150_tip_tree_matches_metadata": true,
+    "36_tip_display_subset": true,
+    "sequence_truth_recomputed": true,
+    "README_figures_present": true
+  },
+  "check_count": 14,
+  "scope": "Committed R simulation metrics; separate Nextflow execution audit in results/wgs/wgs_validation.json"
+}

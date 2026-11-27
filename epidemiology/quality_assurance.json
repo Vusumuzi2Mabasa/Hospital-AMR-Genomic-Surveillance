@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "review_date": "2026-11-27",
+  "render_engine": "Microsoft Word PDF export and Poppler page rendering",
+  "pages_visually_reviewed": 7,
+  "native_word_tables": 6,
+  "figures": 4,
+  "original_scientific_files_preserved": 136,
+  "review_checks": [
+    "All pages inspected",
+    "Readable tables, equations, labels and figures",
+    "Captions kept with figures",
+    "Interpretations precede figures",
+    "Synthetic and public measured data distinguished",
+    "No causal or incidence claims beyond available design"
+  ]
+}

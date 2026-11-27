@@ -1,3 +1,10 @@
+EPIDEMIOLOGICAL REPORT UPDATE 27 NOVEMBER 2026
+Run from the repository root after the original analysis inputs are available:
+Rscript --vanilla epidemiology/analysis.R --report
+This generates the current README, statistical tables, figures and Word manuscript.
+All original scientific results are preserved and verified by SHA256.
+The complete original workflow is retained below and in archive/pre-epidemiology-refocus.
+
 HOSPITAL AMR GENOMIC SURVEILLANCE — FULLY SYNTHETIC DEMONSTRATION
 Author: Vusumuzi Mabasa
 Toshiba location: D:\Hospital-AMR-Genomic-Surveillance

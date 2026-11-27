@@ -1,0 +1,69 @@
+HOSPITAL AMR GENOMIC SURVEILLANCE — FULLY SYNTHETIC DEMONSTRATION
+Author: Vusumuzi Mabasa
+Toshiba location: D:\Hospital-AMR-Genomic-Surveillance
+WSL location: /mnt/d/Hospital-AMR-Genomic-Surveillance
+
+PORTABLE LINUX REPRODUCTION
+Requires conda/mamba, Java, Quarto and a working Linux R installation.
+  cd /mnt/d/Hospital-AMR-Genomic-Surveillance
+  conda env create -f environment.yml
+  conda activate hospital-amr
+  Rscript --vanilla scripts/restore.R
+  Rscript --vanilla scripts/run.R
+  Rscript --vanilla tests/test_simulation.R
+  python3 scripts/prepare_wgs.py
+  python3 -m unittest discover -s tests -p 'test_*.py' -v
+  nextflow run main.nf -resume
+  Rscript --vanilla scripts/plot_wgs.R
+  Rscript --vanilla scripts/build_report.R
+  Rscript --vanilla scripts/render_report.R
+  Rscript --vanilla scripts/audit.R
+
+The committed tiny two-target AMR reference file is sufficient to reproduce
+the fixtures. prepare_wgs.py does not download a full database.
+The conda specification is a recreation recipe; local executed versions are
+recorded separately. R restoration pins direct packages, not all dependencies.
+Install Quarto separately if absent. Word rendering requires Quarto on PATH.
+
+OUTPUTS
+  results/replicate_metrics.csv — all 2,400 repeated-simulation evaluations
+  results/performance_summary.csv — means and Monte Carlo intervals
+  results/paired_method_summary.csv — paired differences
+  results/wgs/wgs_validation.json — executed sequence truth checks
+  results/wgs/wgs_qc.csv — per-fixture read and core callability metrics
+  results/wgs/assembly_amr_checks.csv — positive and negative controls
+  results/wgs/phylogeny/observed.treefile — observed-sequence ML tree
+  figures/ — R/ggplot PNG and PDF figures
+  report/Hospital_AMR_Report.qmd — editable Quarto source
+  report/Hospital_AMR_Report.docx — manuscript-style Word report
+
+All sample records and core sequences are artificial. These are not clinical
+performance estimates, actual K. pneumoniae genomes or an institutional study.
+Never replace the toy thresholds with clinical recommendations without validation.
+
+PUBLIC KLEBSIELLA CASE STUDY (ASSEMBLY-BASED REAL DATA)
+The synthetic experiment above is preserved. This separate analysis uses twelve
+public NIH outbreak assemblies; it does not perform raw-read QC or reassembly.
+
+  cd /mnt/d/Hospital-AMR-Genomic-Surveillance
+  conda env create -f case_study/environment.yml
+  conda activate public-klebsiella-case
+  python3 case_study/scripts/fetch_inputs.py --amr
+  amrfinder_index case_study/cache/amrfinder/2026-08-07.1
+  python3 case_study/scripts/test_assembly_analysis.py -v
+  nextflow -C case_study/nextflow.config run case_study/main.nf -resume
+  Rscript --vanilla case_study/analyse.R
+  python3 case_study/scripts/audit.py
+  Rscript --vanilla scripts/build_report.R
+  Rscript --vanilla scripts/render_report.R
+
+An existing verified AMRFinder database can be passed with --amr_db /path/to/db.
+The locked database source download is approximately 124 MB before indexing.
+The public archive genomes remain in ignored cache directories; accessions,
+checksums, results, source code and figures are committed to GitHub.
+The input manifest pins NCBI accession versions and the MLST reference commit.
+Case results: case_study/results/
+Figures: case_study/figures/
+Validation: case_study/provenance/case_validation.json
+Original Word report: report/archive/Hospital_AMR_Simulation_Baseline.docx
+The original simulated results do not require rerunning to reproduce the case.
